@@ -1,0 +1,126 @@
+@media(max-width:1400px){
+    nav ul li{
+        margin: 0 23px;
+    }
+
+    .sale .paralax{
+        top: 0;
+        right: -280px;
+    }
+}
+
+@media(max-width: 1200px){
+    nav{
+        display: none;
+    }
+    .menuBtn{
+        display: flex;
+    }
+    .redLine{
+        display: block;
+    }
+
+}
+
+@media(max-width: 992px){
+    .redLine{
+        width: 500px;
+    }
+    .sale .paralax{
+        width: 520px;
+        top: 0px;
+        right: 0px;
+    }
+
+    .sale-title{
+        width: 49.5%;
+    }
+
+    .sale-title h1{
+        font-size: 28px;
+        font-family: ventibold
+    }
+
+    .sale-title h1:before{
+        content: none;
+    }
+
+    .sale-weapon .contact{
+        text-align: right;
+    }
+
+    .sale-weapon .contact .phoneNumber{
+        color: #E6E1CE;
+    }
+
+    .sale-title-patern{
+        display: block;
+    }
+
+    .sale-body{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+}
+
+@media(max-width: 768px){
+    .redLine{
+        display: none;
+    }
+
+    .phone{
+        display: block
+    }
+
+    .sale .paralax {
+        width: 400px;
+        top: 40px;
+        right: 0px;
+    }
+
+
+}
+
+@media(max-width: 576px){
+    .redLine{
+        display: none;
+    }
+
+    .sale .paralax {
+        display: none;
+    }
+
+    .sale .sale-title{
+        width: 100%;
+    }
+
+    .sale .sale-title-x{
+        display: block;
+    }
+
+    .paternx,
+    .sale-body-patern{
+        display: none;
+    }
+    
+
+}
+
+@media(max-width: 400px){
+    .sale-title h1{
+        font-size: 6.5vmin;
+    }
+
+    .sale-weapon .contact .email{
+        font-size: 5vmin;
+    }
+
+    .sale-form h2{
+        font-size: 5vmin;
+    }
+
+    .sale-weapon .contact .phoneNumber{
+        font-size: 4vmin;
+    }
+}
