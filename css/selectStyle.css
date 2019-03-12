@@ -1,0 +1,76 @@
+.input {
+    border-bottom: 2px solid #48403B;
+    padding: 8px 1rem;
+    color: #E6E1CE;
+    position: relative;
+    text-transform: uppercase;
+}
+  
+  .select {
+    cursor: pointer;
+    position: relative;
+    margin-top: 30px;
+}
+  .select .input:before {
+    content: url('../img/Vector.png');
+    position: absolute;
+    right: 30px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    
+}
+
+.select-options {
+    border: 1px solid #dc3545;
+    position: absolute;
+    width: 100%;
+    border-radius: 3px;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    padding-top: 30px;
+    display: none;
+    overflow: hidden;
+}
+  .select-options.visible {
+    display: block;
+}
+  .select-options ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #222222f5;
+  }
+  .select-options ul li {
+    padding: 8px 50px 8px 6px;
+    border-bottom: 1px solid #ddd;
+    font-size: 13px;
+    color: #ddd8c6;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+    
+  }
+  .select-options ul li:hover {
+    background-color: #f2f2f224;
+  }
+  .select-options ul li:last-child {
+    border-bottom: 0;
+  }
+  .select-options ul li.selected > span:first-child {
+    color: #dc3545;
+  }
+  .select-options ul li.selected:after {
+    content: '';
+    width: 5px;
+    height: 10px;
+    border: 1px solid #dc3545;
+    border-right: 0;
+    border-bottom: 0;
+    left: calc(100% - 20px);
+    top: 50%;
+    transform: translateY(-50%) rotate(-135deg);
+    position: absolute;
+  }

@@ -187,53 +187,6 @@ nav ul li:hover{
 	letter-spacing: 5px;
 }
 
-.sale-form select{
-	width: 100%;
-	padding: 1em 0 1em 1em;
-	margin-top:1rem; 
-	background-color: rgb(34, 34, 34);
-	border:0;
-	border-bottom: 2px solid #48403B;
-	line-height: normal;
-	font-size: 16px;
-	letter-spacing: 5px;
-	text-transform: uppercase;
-	font-family: ventimedium;
-	color: #E6E1CE;
-	-moz-appearance: none;
-	-webkit-appearance: none;
-	cursor: pointer;
-}
-
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-	select {
-	  padding-right: 1em;
-	}
-  }
-  select:focus {
-	outline: none;
-	border-color: #DF172D;
-  }
-  
-  label {
-	position: relative;
-	display: inline-block;
-	width: 100%;
-  }
-  label:after {
-	display: block;
-	content: url(../img/Vector.png);
-	font-size: 20px;
-	width: 20px;
-	position: absolute;
-	height: 20px;
-	top: 65%;
-	margin-top: -14px;
-	right: 0;
-	pointer-events: none;
-  }
-
 
   .sale-form .md-form label{
 	line-height: normal;
@@ -317,10 +270,10 @@ nav ul li:hover{
 }
 
 .sale .paralax img.paralax5{
-	right: 40%;
-	top: 50%;
-	width: 10%;
-    z-index: 2;
+	right: 35%;
+	top: 55%;
+	width: 4%;
+	z-index: 2;
 }
 
 .sale .paralax img.paralax6{
@@ -335,4 +288,32 @@ nav ul li:hover{
 	top: 15%;
 	z-index: 2;
 	width: 8%;
+}
+
+.sale-form button{
+	width: 100%;
+	padding: 1rem;
+	background: transparent;
+	font-family: ventimedium;
+	line-height: normal;
+	font-size: 16px;
+	text-align: center;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #F9F9F9;
+	border: 2px solid #e6e1ce;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.sale-form button:hover{
+	border-color: #DF172D;
+}
+
+.sale-form .input{
+	font-family: ventimedium;
+	line-height: normal;
+	font-size: 16px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
 }
