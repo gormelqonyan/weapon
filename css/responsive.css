@@ -1,3 +1,12 @@
+@media(max-width:1500px){
+    .big-container{
+        overflow: hidden;
+    }
+
+    
+    
+}
+
 @media(max-width:1400px){
     nav ul li{
         margin: 0 23px;
@@ -19,6 +28,88 @@
     .redLine{
         display: block;
     }
+
+    .aboutsSaleAnimationItemSvg{
+        display: none;
+    }
+
+    .animation{
+        padding: 0;
+    }
+
+
+    .aboutsSaleAnimationItem1 .aboutsSaleAnimationItemText,
+    .aboutsSaleAnimationItem2 .aboutsSaleAnimationItemText,
+    .aboutsSaleAnimationItem3 .aboutsSaleAnimationItemText,
+    .aboutsSaleAnimationItem4 .aboutsSaleAnimationItemText{
+        position: initial;
+        right: 0;
+        bottom: 0;
+        margin-top: 0.5rem;
+    }
+    .aboutsSaleAnimationItem4 .aboutsSaleAnimationItemText{
+        margin-top: 120px;
+    }
+
+    .aboutsSaleAnimationItem1 .aboutsSaleAnimationItemNumber{
+        position: absolute;
+        bottom: 110px;
+        left: 0px;
+    }
+
+    .aboutsSaleAnimationItem3 .aboutsSaleAnimationItemNumber{
+        top: 210px;
+    }
+    
+    .aboutsSaleAnimationItem2Img{
+        padding-top: 200px;
+    }
+
+    .aboutsSaleAnimationItem2 .aboutsSaleAnimationItemNumber{
+        position: absolute;
+        top: 465px;
+    }
+
+    .aboutsaletitleX{
+        display: none;
+    }
+
+    .aboutsaletitlepatern{
+        top: 20px;
+        left: -140px;
+        width: 400px;
+        height: 140px;
+    }
+
+    .aboutSaleTitle{
+        position: absolute;
+        top: 75px;
+        right: 0;
+        width: 400px;
+        text-align: right;
+    }
+
+    .aboutSale .big-container{
+        padding: 0;
+    }
+
+    .aboutsSaleAnimationItem3{
+        margin-top: 0;
+    }
+
+    .aboutsSaleAnimationItemNumber,
+    .aboutsSaleAnimationItemText {
+        transition: 0s !important;
+    }
+
+    .aboutsSaleAnimationItemPaternImg{
+        display: none;
+    }
+
+    
+    
+
+    
 
 }
 
@@ -79,6 +170,28 @@
         right: 0px;
     }
 
+    .aboutSaleTitle{
+        position: initial;
+        width: 100%;
+    }
+
+    .aboutSaleTitleSvg{
+        top: 70px;
+        left: 200px;
+    }
+
+    .aboutsSaleAnimationItem2Img{
+        padding:0;
+    }
+
+    .aboutsSaleAnimationItem2 .aboutsSaleAnimationItemNumber{
+        top: 270px;
+    }
+
+    .aboutsSaleAnimationItem4{
+        margin-top: 40px;
+    }
+
 
 }
 
@@ -103,6 +216,13 @@
     .sale-body-patern{
         display: none;
     }
+
+    .aboutSaleTitleSvg {
+        display:block;
+        left: 200px;
+    }
+
+    
     
 
 }
@@ -122,5 +242,9 @@
 
     .sale-weapon .contact .phoneNumber{
         font-size: 4vmin;
+    }
+
+    .aboutSaleTitle h2{
+        font-size: 7vmin;
     }
 }

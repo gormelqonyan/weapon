@@ -61,4 +61,29 @@ $(function(){
     $('.select .input').text($(this).find('span:first-child').text());
     $('.select-hidden').val($(this).find('span:first-child').text())
   });
+
+  
+  var scroll = function(){
+    if($(window).scrollTop() <= 279 && $(window).scrollTop() >= 179 ){
+      $('.aboutSale').addClass('animate')
+    }
+   
+
+    $(window).on('scroll', function(){
+      if($(window).scrollTop() >= 179 || $(window).scrollTop() <= 279 ){
+        $('.aboutSale').addClass('animate')
+      }
+
+      if($(window).scrollTop() >= 500 || $(window).scrollTop() <= 600 ){
+        $('.animation').addClass('animate')
+      }
+  
+      console.log($(window).scrollTop())
+    })
+  
+  }
+
+  scroll();
+
+
 })
