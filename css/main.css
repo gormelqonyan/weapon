@@ -406,7 +406,7 @@ nav ul li:hover{
 /*aboutSale section style*/
 
 .aboutSale .big-container{
-	padding: 135px 0;
+	padding: 100px 0;
 }
 
 .aboutSaleTitle{
@@ -661,3 +661,61 @@ nav ul li:hover{
 	width: 170px;
 }
 
+/**************************/
+
+.howSaletitle{
+	position: relative;
+}
+
+.howSale .big-container{
+	padding: 80px 40px;
+}
+
+.howSaletitle .triangle{
+	position: absolute;
+	top: -90px;
+	left: -95px;
+	z-index: -1;
+}
+
+.howSale h2{
+	width: 263px;
+	font-family: ventimedium;
+	line-height: normal;
+	font-size: 40px;
+	letter-spacing: 12px;
+	text-transform: uppercase;
+	color: #E6E1CE;
+}
+
+.howSale h4{
+	line-height: normal;
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #DF172D;
+}
+
+.howSale p{
+	font-family: ventimedium;
+	line-height: 20px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: #E6E1CE;
+}
+
+.howsalepatern{
+	position: absolute;
+	top: -25px;
+	right: 25px;
+	z-index: -2;
+}
+
+.howSaletitle:before{
+	content: '';
+	width: 4px;
+	height:calc(100% + 80px) ;
+	position: absolute;
+	right: 0;
+	top:-40px;
+	background: linear-gradient(to bottom, #DF172D 0.01%, rgba(223, 23, 45, 0) 100%);
+}
