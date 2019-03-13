@@ -101,7 +101,6 @@ body{
 	margin: 0 auto;
 	padding: 0 1rem;
 	position: relative;
-
 }
 
 header{
@@ -167,8 +166,13 @@ nav ul li:hover{
 
 /*SALE SECTION*/
 
+section{
+	overflow: hidden
+}
+
 .sale{
 	position: relative;
+	padding-bottom: 4rem;
 }
 
 .sale-title{
@@ -292,23 +296,101 @@ nav ul li:hover{
 
   .paralax-container{
 	  position: relative;
-  }
+	}
+	
+	.sale .paralax1 svg,
+	.sale .paralax2 svg,
+	.sale .paralax3 svg,
+	.sale .paralax4 svg,
+	.sale .paralax5 svg,
+	.sale .paralax7 svg,
+	.sale .paralax8 svg,
+	.sale .paralax9 svg{
+		width: 100%;
+	}
 
   .sale .paralax{
-	  max-width: 1200px;
 	  position: absolute;
 	  top: -100px;
 	  right: 0;
 	  z-index: -1;
-  }
+	}
 
+	.sale .paralax1{
+		position: absolute;
+    right: 41%;
+		top: 22%;
+		width: 7%;
+    z-index: -3;
+	}
 
+	.sale .paralax2{
+		position: absolute;
+		right: 35%;
+    top: 45%;
+    width: 10%;
+    z-index: -3;
+	}
+
+	.sale .paralax3{
+		position: absolute;
+		right: -20%;
+    top: 25%;
+    z-index: -3;
+	}
+
+	.sale .paralax4{
+		position: absolute;
+		right: 10%;
+    top: 10%;
+    width: 15%;
+    z-index: -3;
+	}
+	
+	.sale .paralax5{
+		position: absolute;
+		right: 22%;
+		top: 55%;
+		z-index: 2;
+		width: 5%;
+	}
+
+	.sale .paralax6{
+		position: absolute;
+		bottom: 30%;
+    right: -40%;
+	}
+
+	.sale .paralax7{
+		z-index: -4;
+    position: absolute;
+		bottom: 20%;
+		right: -15%;
+		width: 50%
+	}
+
+	.sale .paralax8{
+		z-index: -4;
+    position: absolute;
+		right: -5%;
+    top: 20%;
+    z-index: 2;
+	}
+
+	.sale .paralax9{
+		position: absolute;
+		right: 30%;
+		top: 20%;
+		width: 18%;
+    z-index: -4;
+	}
 
   .sale .paralax img.paralaxfon2{
-	z-index: 2;
-	position: absolute ;
-	right: 0;
-	top: 0;
+		z-index: 2;
+    position: absolute;
+    right: -250px;
+    top: 0;
+    width: 100%;
   }
 
   .sale .paralax img.paralax{
@@ -324,12 +406,6 @@ nav ul li:hover{
 	width: 15%;
   }
 
-  .sale .paralax img.paralax2{
-	right: 55%;
-    top: 45%;
-    width: 10%;
-    z-index: -3;
-}
 
 .sale .paralax img.paralax3{
 	right: 5%;
@@ -350,20 +426,6 @@ nav ul li:hover{
 	top: 55%;
 	width: 4%;
 	z-index: 2;
-}
-
-.sale .paralax img.paralax6{
-	right: 2%;
-	top: 50%;
-	width: 36%;
-    z-index: 2;
-}
-
-.sale .paralax img.paralax7{
-	right: 20%;
-	top: 15%;
-	z-index: 2;
-	width: 8%;
 }
 
 .sale-form button{

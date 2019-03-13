@@ -1,20 +1,7 @@
-@media(max-width:1500px){
-    .big-container{
-        overflow: hidden;
-    }
-
-    
-    
-}
 
 @media(max-width:1400px){
     nav ul li{
         margin: 0 23px;
-    }
-
-    .sale .paralax{
-        top: 0;
-        right: -280px;
     }
 }
 
@@ -105,12 +92,7 @@
     .aboutsSaleAnimationItemPaternImg{
         display: none;
     }
-
     
-    
-
-    
-
 }
 
 @media(max-width: 992px){
@@ -121,6 +103,35 @@
         width: 520px;
         top: 0px;
         right: 0px;
+    }
+
+    .sale .paralax3{
+        display: none;
+    }
+
+    .sale .paralax7{
+        display: none;
+    }
+    .sale .paralax img.paralaxfon2{
+        right: 0;
+    }
+
+    .sale .paralax2{
+        right: 50%;
+        top: 30%;
+        width: 15%;
+    }
+
+    .sale .paralax8{
+        right: 7%;
+        top: 11%;
+        width: 7%;
+    }
+
+    
+
+    .sale .paralax6{
+        display: none;
     }
 
     .sale-title{
@@ -200,7 +211,7 @@
 
     .sale .paralax {
         width: 400px;
-        top: 40px;
+        top: 0px;
         right: 0px;
     }
 

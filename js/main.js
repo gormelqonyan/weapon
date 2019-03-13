@@ -7,6 +7,8 @@ $(function(){
     paralax5 : $('.paralax5'),
     paralax6 : $('.paralax6'),
     paralax7 : $('.paralax7'),
+    paralax8 : $('.paralax8'),
+    paralax9 : $('.paralax9'),
     paralaxfon2 : $('.paralaxfon2'),
   }
 
@@ -22,25 +24,31 @@ $(function(){
     }
 
     paralax.paralax1.css({
-      'transform':'translate3d('+position.valueX+'px, '+position.valueY+'px, 0)'
+      'transform':'translate3d('+position.valueX2/4+'px, '+position.valueY2/4+'px, 0)'
     })
     paralax.paralax2.css({
-      'transform':'translate3d('+(position.valueX2*-1)+'px, '+(position.valueX2*-1)+'px, 0)'
+      'transform':'translate3d('+(position.valueX2/2)+'px, '+(position.valueX2/2)+'px, 0)'
     })
     paralax.paralax3.css({
-      'transform':'translate3d('+(position.valueX/2)+'px, '+(position.valueY/2)+'px, 0)'
+      'transform':'translate3d('+(position.valueX2/-2)+'px, '+(position.valueY2/-2)+'px, 0)'
     })
     paralax.paralax4.css({
-      'transform':'translate3d('+(position.valueX3*-1)+'px, '+(position.valueY3*-1)+'px, 0)'
+      'transform':'translate3d('+(position.valueX2/4)+'px, '+(position.valueY2/4)+'px, 0)'
     })
     paralax.paralax5.css({
-      'transform':'translate3d('+(position.valueX3/3)+'px, '+(position.valueY3/3)+'px, 0)'
+      'transform':'translate3d('+(position.valueX2/-4)+'px, '+(position.valueY2/-4)+'px, 0)'
     })
     paralax.paralax6.css({
-      'transform':'translate3d('+(position.valueX3/-4)+'px, '+(position.valueY3/-4)+'px, 0)'
+      'transform':'translate3d('+(position.valueX2/-1)+'px, '+(position.valueY2/-1)+'px, 0)'
     })
     paralax.paralax7.css({
-      'transform':'translate3d('+(position.valueX3/-4)+'px, '+(position.valueY3/-4)+'px, 0)'
+      'transform':'translate3d('+(position.valueX2/2)+'px, '+(position.valueY2/2)+'px, 0)'
+    })
+    paralax.paralax8.css({
+      'transform':'translate3d('+(position.valueX2/5)+'px, '+(position.valueY2/5)+'px, 0)'
+    })
+    paralax.paralax9.css({
+      'transform':'translate3d('+(position.valueX2/-5)+'px, '+(position.valueY2/-5)+'px, 0)'
     })
     paralax.paralaxfon2.css({
       'transform':'translate3d('+(position.valueX2/-6)+'px, '+(position.valueY2/-6)+'px, 0)'
