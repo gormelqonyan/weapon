@@ -90,10 +90,11 @@
 *************************************/
 
 body{
-	background:#222;
+	background:#191919;
 	color: #E6E1CE;
 	font-weight: 500;
 	font-family: ventimedium;
+	overflow-x: hidden;
 }
 
 .big-container{
@@ -166,13 +167,11 @@ nav ul li:hover{
 
 /*SALE SECTION*/
 
-section{
-	overflow: hidden
-}
 
 .sale{
 	position: relative;
 	padding-bottom: 4rem;
+	overflow: hidden;
 }
 
 .sale-title{
@@ -216,6 +215,7 @@ section{
 
 .sale-weapon .contact{
 	margin-top: 20px;
+	overflow: hidden;
 }
 
 .sale-weapon .contact p{
@@ -385,48 +385,7 @@ section{
     z-index: -4;
 	}
 
-  .sale .paralax img.paralaxfon2{
-		z-index: 2;
-    position: absolute;
-    right: -250px;
-    top: 0;
-    width: 100%;
-  }
-
-  .sale .paralax img.paralax{
-	position: absolute;
-	right: 0;
-	top: 0;
-  }
-
-  .sale .paralax img.paralax1{
-	right: 50%;
-	top: 20%;
-	z-index: -3;
-	width: 15%;
-  }
-
-
-.sale .paralax img.paralax3{
-	right: 5%;
-    top: 20%;
-    width: 8%;
-    z-index: -3;
-}
-
-.sale .paralax img.paralax4{
-	right: 30%;
-    top: 15%;
-    width: 8%;
-    z-index: -3;
-}
-
-.sale .paralax img.paralax5{
-	right: 35%;
-	top: 55%;
-	width: 4%;
-	z-index: 2;
-}
+ 
 
 .sale-form button{
 	width: 100%;
@@ -768,8 +727,16 @@ section{
 .howsalepatern{
 	position: absolute;
 	top: -25px;
-	right: 25px;
+	left: -90px;
 	z-index: -2;
+}
+
+.howsalepatern4{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	z-index: -2;
+	display: none;
 }
 
 .howSaletitle:before{
@@ -780,4 +747,486 @@ section{
 	right: 0;
 	top:-40px;
 	background: linear-gradient(to bottom, #DF172D 0.01%, rgba(223, 23, 45, 0) 100%);
+}
+
+.howsalebodyPatern{
+	position: absolute;
+	top: -30px;
+  right: -40px;
+}
+
+
+/***********
+	ADVANTAGES STYLES
+**************/
+
+.advantages{
+	padding: 50px 0;
+}
+
+.advantages-content{
+	position: relative;
+}
+
+.advantagesTitel{
+	font-family: ventilight;
+	font-size: 40px;
+	line-height: normal;
+	letter-spacing: 12px;
+	text-transform: uppercase;
+}
+
+.advantages-content{
+	width: 70%;
+}
+
+.advantagesBodyItem{
+	width: 281px;
+	height: 100px;
+	margin: 15px 0;
+}
+
+.advantagesBodyItemText{
+	width: 191px;
+	font-family: ventimedium;
+	font-size: 20px;
+	line-height: 22px;
+	letter-spacing: 2px;
+	margin-left: 22px;
+	margin-bottom: 0;
+}
+
+.advantages-weapon{
+	position: absolute;
+	top: 0px;
+	left: -720px;
+}
+
+.weaponTitlePatern{
+	display: none;
+}
+
+/***************
+PRODUCT STYLE
+*************/
+
+.productBody{
+	position: relative;
+}
+
+.productBodyPattern{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: -100px;
+	z-index: -1;
+}
+
+.productTitle{
+	width: 700px;
+	font-family: ventilight;
+	font-size: 40px;
+	line-height: normal;
+	text-align: right;
+	letter-spacing: 12px;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.productTitle:before{
+	content: '';
+	position: absolute;
+	bottom: -16px;
+	right: 0;
+	width: 100%;
+	height: 4px;
+	background: linear-gradient(90deg,  rgba(160, 155, 135, 0) ,#A09B87);
+}
+
+.productTitlePatern{
+	position: absolute;
+	top: -150px;
+	left: 450px;
+	z-index: -2;
+}
+
+.productTitleX{
+	position: absolute;
+	top: -80px;
+	left: 590px;
+	z-index: -1;
+}
+
+.productitem{
+	width: 258px;
+	margin: 21.5px 28.5px;
+}
+
+.productItemTitle{
+	font-family: ventilight;
+	font-size: 15px;
+	line-height: 19px;
+	letter-spacing: 3px;
+}
+
+.circle{
+	width: 174px;
+	height: 174px;
+	border-radius: 50%;
+	margin: 0 48px 0 36px;
+	background: #858171;
+	position: relative;
+	transition: 0.4s;
+}
+
+.productImg{
+	position: absolute;
+	right: -31px;
+	left: -45px;
+	top: 18px;
+	bottom: 55px;
+}
+
+.circlePatern{
+	position: absolute;
+	right: -99.81px;
+	left: 65px;
+	top: -22px;
+	bottom: 55px;
+	opacity: 0.4;
+}
+
+.producTitemRequest{
+	font-family: ventimedium;
+	font-size: 16px;
+	line-height: normal;
+	letter-spacing: 2px;
+	color: #DF172D;
+}
+
+.productItemPrice{
+	font-family: ventimedium;
+	font-size: 30px;
+	line-height: normal;
+	letter-spacing: 3px;
+	position: absolute;
+	left: 59px;
+	top: 127px;
+	bottom: 17px;
+}
+
+.productItemPrice svg{
+	margin-left: 8px;
+}
+
+.productitem:hover .circle{
+	background: #DF172D;
+	cursor: pointer;
+}
+
+.productBodyPatternX{
+	position: absolute;
+	top:455px;
+	left: 800px;
+	z-index: -1;
+}
+
+.productTitleTextPatern{
+	display: none;
+}
+
+.productFooter{
+	width: 646px;
+	margin-left: 70px;
+	margin-top: 2rem;
+	position: relative;
+}
+
+.productFooter:before{
+	content: '';
+	position: absolute;
+	top: -20px;
+	left: 0;
+	width: 50%;
+	height: 4px;
+	background: linear-gradient(90deg, #A09B87,rgba(160, 155, 135, 0));
+}
+
+.productFooter h5{
+	font-family: ventimedium;
+	font-size: 20px;
+	line-height: 22px;
+	letter-spacing: 1px;
+	color: #E6E1CE;
+}
+
+.productFooter p{
+	width: 504px;
+	font-family: ventimedium;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	color: #A09B87;
+}
+
+.productFooter button{
+	display: none;
+	background: transparent;
+	border: 3px solid #E6E1CE;
+	box-sizing: border-box;
+	padding: 15px;
+	width: 344px;
+	color: #E6E1CE;
+	font-family: ventimedium;
+	font-size: 16px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: 0.2s;
+	margin: 20px 0;
+}
+
+.productFooter button:hover{
+	border-color: #DF172D;
+}
+
+.productFooter button span{
+	margin-left: 15px;
+}
+
+
+/************
+	REWIEV STYLES
+****************/
+
+.rewiev{
+	padding-top: 70px;
+}
+
+.rewievTitle{
+	font-family: ventimedium;
+	font-size: 40px;
+	line-height: normal;
+	letter-spacing: 12px;
+	text-transform: uppercase;
+	color: #E6E1CE;
+	position: relative;
+}
+
+.rewievTitlePattern{
+	position: absolute;
+	top: -42px;
+	left: -272px;
+	z-index: -2;
+}
+
+.rewievItem{
+	width: 487px;
+	margin-top: 70px;
+	position: relative;
+	margin-right: 20px;
+}
+
+.rewievItem:last-child{
+	margin-right: 0;
+}
+
+.rewievItemImg{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.rewievItemTitle{
+	margin: 0;
+	font-family: ventimedium;
+	font-size: 20px;
+	line-height: normal;
+	letter-spacing: 1px;
+	color: #DF172D;
+	margin-left: 29px;
+}
+
+.rewievItemBody{
+	margin-left: 99px;
+	font-family: ventimedium;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 1px;
+}
+
+.rewievItemPattern{
+	position: absolute;
+	left: 140px;
+	top: -20px;
+	z-index: -1;
+}
+
+.rewievItemPattern2{
+	display: none;
+	position: absolute;
+	left: 140px;
+	top: 90px;
+	z-index: -1;
+}
+
+/***********
+SEO SECTION STYLE
+***********/
+.seoContent{
+	width: 1003px;
+	margin-top: 129px;
+	margin-bottom: 122px;
+	position: relative;
+
+}
+.seoContentTitle{
+	font-family: ventibold;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 1px;
+	color: #DF172D
+}
+
+.seoContentBody{
+	font-family: ventimedium;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	color: #A09B87;
+}
+
+.rectangle{
+	position: absolute;
+	top: -315px;
+	left: -550px;
+	z-index: -1;
+}
+
+.rectanglePatern{
+	position: absolute;
+	top: 43px;
+	left: -41px;
+	z-index: -1;;
+}
+
+.rectanglePaternX{
+	position: absolute;
+	top: -145px;
+	left: 722px;
+}
+
+/*******
+	CONTACT SECTION STYLE
+*********/
+
+.contactTitle{
+	font-family: ventimedium;
+	font-size: 40px;
+	line-height: normal;
+	letter-spacing: 12px;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.contactTitleTriangle{
+	position: absolute;
+	top: -96px;
+	left: 16px;
+	z-index: -1;
+}
+
+.contactTitlePatern{
+	position: absolute;
+	top: -20px;
+	left: -190px;
+	z-index: -2;
+}
+
+.location{
+	width: 256px;
+	font-family: ventimedium;
+	line-height: 20px;
+	letter-spacing: 1px;
+}
+
+.number{
+	font-family: ventimedium;
+	font-size: 20px;
+	line-height: normal;
+	letter-spacing: 5px;
+}
+
+.contactFormTitle{
+	font-family: ventimedium;
+	font-size: 20px;
+	line-height: normal;
+	letter-spacing: 5px;
+	color: #DF172D;
+}
+
+.contactForm{
+	width: 388px;
+}
+
+
+.contactForm button{
+	width: 100%;
+	padding: 1rem;
+	background: transparent;
+	font-family: ventimedium;
+	line-height: normal;
+	font-size: 16px;
+	text-align: center;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #F9F9F9;
+	border: 2px solid #e6e1ce;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.contactForm button:hover{
+	border-color: #DF172D;
+}
+
+.contactForm .md-form label{
+	line-height: normal;
+	font-size: 16px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #E6E1CE;
+	padding-left: 18px;
+}
+
+.contactForm .md-form label.active{
+	font-size: 12px;
+}
+
+.contactForm .md-form input{
+	border-bottom: 2px solid #48403B;
+}
+
+.contactForm .md-form input[type=text]:focus:not([readonly])+label{
+	color: #DF172D;
+}
+.contactForm .md-form input[type=text]:focus:not([readonly]){
+-webkit-box-shadow: 0 1px 0 0 #DF172D;
+	box-shadow: 0 1px 0 0 #DF172D;
+	border-bottom: 1px solid #DF172D;
+}
+
+.map{
+	position: relative;
+}
+
+.map img{
+	width: 100%;
+}
+
+.mapPattern{
+	position: absolute;
+	top: -59px;
+	left:-111px;
 }

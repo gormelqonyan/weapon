@@ -92,6 +92,17 @@
     .aboutsSaleAnimationItemPaternImg{
         display: none;
     }
+    .advantages-content{
+        width: 60%;
+    }
+
+    .advantagesTitel{
+        font-size: 30px;
+    }
+
+    .contactForm{
+        width: 100%;
+    }
     
 }
 
@@ -127,9 +138,6 @@
         top: 11%;
         width: 7%;
     }
-
-    
-
     .sale .paralax6{
         display: none;
     }
@@ -169,11 +177,13 @@
     }
 
     .howsalepatern{
-        width: 70%;
-        height: 100px;
-        top: 10px;
-        right: 0;
-        left: 30px;
+        display: none;
+    }
+    .howsalebodyPatern{
+        display: none;
+    }
+    .howsalepatern4{
+        display: block;
     }
 
     .howSale h2{
@@ -196,7 +206,92 @@
         top: 125px;
         background: linear-gradient(to left, #DF172D 0.01%, rgba(223, 23, 45, 0) 100%);
     }
+    .advantages-content{
+        width: 100%;
+    }
+    .advantages-weapon{
+        display: none;
+    }
+    .advantagesTitel{
+        font-size: 40px;
+        position: relative;
+    }
+    .weaponTitlePatern{
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: -30px;
+        transform: translateY(-50%);
+        z-index: -1;
 
+    }
+
+    .advantages{
+        padding: 0;
+    }
+
+    .productTitle{
+        width: 100%;
+        font-size: 28px;
+        line-height: normal;
+        text-align: right;
+        letter-spacing: 5px;
+    }
+
+    .productTitleX, .productTitlePatern{
+        display: none;
+    }
+
+    .productTitleText{
+        width: 315px;
+        position: relative;
+    }
+
+    .productTitleTextPatern{
+        display: block;
+        position: absolute;
+        left: -109px;
+        top: -14px;
+        z-index: -1;
+    }
+
+    .productFooter{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .productFooter:before{
+        width: 100%;
+    }
+
+    .productBodyPatternX, .productBodyPattern{
+        display: none;
+    }
+
+    .productFooter button{
+        display: flex;
+    }
+
+    .rewievItem{
+        width: 100%;
+    }
+    .rewievItemPattern{
+        display: none;
+    }
+    .rewievItemPattern2{
+        display: block;
+    }
+    .seoContent{
+        width: 80%;
+        margin: 52px 0;
+    }
+    .rectangle, .rectanglePatern{
+        display: none;
+    }
+    .rectanglePaternX{
+        left:141px;
+        top: 0;
+    }
 
 }
 
@@ -237,6 +332,11 @@
         margin-top: 40px;
     }
 
+    .productFooter h5,
+    .productFooter p{
+        width: 100%;
+    }
+
 
 }
 
@@ -267,7 +367,20 @@
         left: 200px;
     }
 
-    
+    .advantagesTitel{
+        font-size: 6vmin;
+    }
+
+    .productFooter button{
+       width: 100%;
+    }
+
+    .seoContent{
+        width: 90%;
+    }
+    .rectanglePaternX{
+        left: -100px;
+    }
     
 
 }
