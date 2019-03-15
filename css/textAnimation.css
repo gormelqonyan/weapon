@@ -1,0 +1,43 @@
+.animateTitleText{
+  width: 0px;
+  overflow: hidden;
+}
+
+.nowrapText{
+  white-space: nowrap;
+}
+
+.aboutSale.animate .animateTitleText{
+  width: 100%;
+  transition: 3s;
+}
+
+.sale.animate .animateTitleText{
+  width: 100%;
+  transition: 3s;
+}
+
+.howSale.animate .animateTitleText{
+  width: 100%;
+  transition: 3s;
+}
+
+.advantages.animate .animateTitleText{
+  width: 100%;
+  transition: 3s;
+}
+
+.product.animate .animateTitleText{
+  width: 100%;
+  transition: 3s;
+}
+
+.rewiev.animate .animateTitleText{
+  width: 100%;
+  transition: 3s;
+}
+
+.contact.animate .animateTitleText{
+  width: 100%;
+  transition: 3s;
+}

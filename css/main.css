@@ -108,6 +108,12 @@ body{
 	overflow-x: hidden;
 }
 
+.hidden{
+	max-width: 2000px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
 .big-container{
 	max-width: 1500px;
 	margin: 0 auto;
@@ -284,7 +290,7 @@ nav ul li:hover{
 	font-size: 16px;
 	letter-spacing: 5px;
 	text-transform: uppercase;
-	color: #E6E1CE;
+	color: #f8f8f8;
 	padding-left: 18px;
   }
 
@@ -450,13 +456,13 @@ nav ul li:hover{
 	letter-spacing: 5px;
 	text-transform: uppercase;
 	color: #F9F9F9;
-	border: 2px solid #e6e1ce;
+	border: 2px solid #DF172D;
 	cursor: pointer;
 	transition: 0.2s;
 }
 
 .sale-form button:hover{
-	border-color: #DF172D;
+	border-color: #e6e1ce;
 }
 
 .sale-form .input{
@@ -479,7 +485,7 @@ nav ul li:hover{
 /*aboutSale section style*/
 
 .aboutSale .big-container{
-	padding: 100px 0;
+	padding: 100px 1rem;
 }
 
 .aboutSaleTitle{
@@ -734,6 +740,33 @@ nav ul li:hover{
 	width: 170px;
 }
 
+.aboutsSaleAnimationItem1 .aboutsSaleAnimationItemPatternX{
+	position: absolute;
+	top: 90px;
+	left: 135px;
+	z-index: -1;
+}
+
+.aboutsSaleAnimationItem2 .aboutsSaleAnimationItemPatternX{
+	position: absolute;
+	top: 400px;
+	left: -90px;
+	z-index: -1;
+}
+
+.aboutsSaleAnimationItem3 .aboutsSaleAnimationItemPatternX{
+	position: absolute;
+	top: -140px;
+	left: 120px;
+	z-index: -1;
+}
+
+.aboutsSaleAnimationItem4 .aboutsSaleAnimationItemPatternX{
+	position: absolute;
+	top: 230px;
+	left:-158px;
+}
+
 /**************************/
 
 .howSaletitle{
@@ -752,7 +785,6 @@ nav ul li:hover{
 }
 
 .howSale h2{
-	width: 263px;
 	font-family: ventimedium;
 	line-height: normal;
 	font-size: 40px;
@@ -791,20 +823,26 @@ nav ul li:hover{
 	display: none;
 }
 
-.howSaletitle:before{
-	content: '';
-	width: 4px;
-	height:calc(100% + 80px) ;
-	position: absolute;
-	right: 0;
-	top:-40px;
-	background: linear-gradient(to bottom, #DF172D 0.01%, rgba(223, 23, 45, 0) 100%);
-}
+
 
 .howsalebodyPatern{
 	position: absolute;
 	top: -30px;
   right: -40px;
+}
+
+.howSaleBody{
+	
+}
+
+.howSaleBody:before{
+	content: '';
+	width: 4px;
+	height: 100%;
+	position: absolute;
+	left: -10px;
+  top: -40px;
+	background: linear-gradient(to bottom, #DF172D 0.01%, rgba(223, 23, 45, 0) 100%);
 }
 
 
@@ -850,8 +888,9 @@ nav ul li:hover{
 
 .advantages-weapon{
 	position: absolute;
-	top: 0px;
-	left: -720px;
+	top: -56px;
+	left: -670px;
+	z-index: -1;
 }
 
 .weaponTitlePatern{
@@ -864,6 +903,8 @@ PRODUCT STYLE
 
 .productBody{
 	position: relative;
+	max-width: 1600px;
+	margin: 0 auto;
 }
 
 .productBodyPattern{
@@ -954,6 +995,10 @@ PRODUCT STYLE
 	line-height: normal;
 	letter-spacing: 2px;
 	color: #DF172D;
+}
+
+.producTitemRequest:hover{
+	color: #E6E1CE;
 }
 
 .productItemPrice{
@@ -1127,9 +1172,10 @@ PRODUCT STYLE
 SEO SECTION STYLE
 ***********/
 .seoContent{
-	width: 1003px;
+	width: 880px;
 	margin-top: 129px;
 	margin-bottom: 122px;
+	margin-left: 160px;
 	position: relative;
 
 }
@@ -1172,6 +1218,8 @@ SEO SECTION STYLE
 /*******
 	CONTACT SECTION STYLE
 *********/
+
+
 
 .contactTitle{
 	font-family: ventimedium;
@@ -1249,7 +1297,7 @@ SEO SECTION STYLE
 	font-size: 16px;
 	letter-spacing: 5px;
 	text-transform: uppercase;
-	color: #E6E1CE;
+	color: #f8f8f8;
 	padding-left: 18px;
 }
 
@@ -1284,12 +1332,18 @@ SEO SECTION STYLE
 	left:-111px;
 }
 
-
-
 .contactFormPattern{
 	position: absolute;
 	top: 59px;
 	left: -55px;
+	z-index: -1;
+}
+
+.contactTitlePatern2{
+	display: none;
+	position: absolute;
+	top: -20px;
+	left: -20px;
 	z-index: -1;
 }
 
@@ -1298,11 +1352,14 @@ FOOTER STYLING
 ***********/
 
 .footer{
-	padding-top: 204px;
+	margin-top: 148px;
+	padding-top: 93px;
+	position: relative;
 }
 
 .footerMenuItem{
 	padding: 0;
+	margin: 0;
 }
 
 .footerMenuItem li{
@@ -1311,10 +1368,140 @@ FOOTER STYLING
 	font-size: 16px;
 	line-height: normal;
 	letter-spacing: 2px;
+	padding: 0.5rem 0;
 }
 
 .footerMenuItem div:nth-child(1){
 	margin-bottom: 10px;
 }
 
+.footerweapon{
+	position: absolute;
+	top:-520px;
+	left: -400px;
+	z-index: -1;
+}
 
+.copriting{
+	font-family: ventimedium;
+	font-size: 16px;
+	line-height: normal;
+	text-align: right;
+	letter-spacing: 2px;
+	padding: 28px 0;
+	color: rgba(223, 23, 45, 0.8);
+}
+
+.copriting p{
+	margin: 0;
+}
+
+.footerLineEffect1{
+	width: 30%;
+	height: 2px;
+	margin-right: 10px;
+	background: linear-gradient(89.97deg,rgba(223, 23, 45, 0) ,#DF172D );
+}
+
+.footerLineEffect2{
+	width: 30%;
+	height: 2px;
+	margin-left: 10px;
+	background: linear-gradient(89.97deg, #DF172D, rgba(223, 23, 45, 0));
+}
+
+.logoNumber{
+	display: none;
+	font-family: ventimedium;
+	font-size: 20px;
+	line-height: normal;
+	letter-spacing: 3px;
+	color: #DF172D;
+	margin-left: 21px;
+	margin-top: 10px;
+}
+
+.footer .logo{
+	position: relative;
+}
+
+.footerlogoPattern{
+	position: absolute;
+	top: -25px;
+	left: -92px;
+	z-index: -1;
+}
+
+.footer .logo img{
+	width: 100%;
+}
+
+.footer .footerPatternX{
+	position: absolute;
+	top: -20px;
+	left: 0;
+}
+
+.footerlogoPattern2{
+	position: absolute;
+	top: 154px;
+	left: 76px;
+	display: none;
+}
+
+.footerlogoPattern3{
+	display: none;
+	position: absolute;
+	top: 154px;
+	left: 76px;
+	z-index: -1;
+}
+
+
+
+
+
+
+
+/****************************************
+*******  PATTERN ANIMATION
+****************************************/
+.sale-body-patern svg{
+	height: 0px;
+	overflow: hidden;
+}
+
+.sale.animate .sale-body-patern svg {
+	height: 452px;
+	transition: 1s;
+}
+
+.paralax1 svg rect{
+	width: 0px;
+}
+
+.sale.animate .paralax1 svg rect{
+	width: 96px;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+
+.paralax3 svg rect{
+	width: 0px;
+}
+
+.sale.animate .paralax3 svg rect{
+	width: 386px;
+	transition: 1s;
+	transition-delay: 1s;
+}
+
+.paralax7 svg rect{
+	width: 0px;
+}
+
+.sale.animate .paralax7 svg rect{
+	width: 612px;
+	transition: 1s;
+	transition-delay: 1s;
+}

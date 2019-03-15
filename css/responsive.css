@@ -6,8 +6,18 @@
     .footerItems li{
         margin-right: 0px;
     }
-
- 
+    .footerMenuItem li{
+        font-size: 1.6vmin;
+    }
+    .howSaleBody{
+        margin-left: 50px;
+        position: relative;
+    }
+    .howSaleBody:before{
+        left: -25px;
+    }
+   
+    
 }
 
 @media(max-width: 1200px){
@@ -34,10 +44,11 @@
     .aboutsSaleAnimationItem2 .aboutsSaleAnimationItemText,
     .aboutsSaleAnimationItem3 .aboutsSaleAnimationItemText,
     .aboutsSaleAnimationItem4 .aboutsSaleAnimationItemText{
-        position: initial;
+        position: static;
         right: 0;
         bottom: 0;
         margin-top: 0.5rem;
+        width: 100%;
     }
     .aboutsSaleAnimationItem4 .aboutsSaleAnimationItemText{
         margin-top: 120px;
@@ -107,6 +118,12 @@
 
     .contactForm{
         width: 100%;
+    }
+
+    .howSaleBody{
+        margin-left: 120px;
+        margin-top: 100px;
+        position: relative;
     }
     
 }
@@ -196,22 +213,14 @@
         line-height: normal;
         font-size: 28px;
         letter-spacing: 5px;
-        width: 150px;
+        width: 170px;
     }
 
     .howSale h4{
         margin-top: 60px;
     }
 
-    .howSaletitle:before{
-        content: '';
-        width: 100%;
-        height: 4px;
-        position: absolute;
-        right: 0;
-        top: 125px;
-        background: linear-gradient(to left, #DF172D 0.01%, rgba(223, 23, 45, 0) 100%);
-    }
+   
     .advantages-content{
         width: 100%;
     }
@@ -299,6 +308,98 @@
         top: 0;
     }
 
+    .contactTitleTriangle{
+        display: none;
+    }
+
+    .contactTitlePatern{
+        display: none;
+    }
+
+    .mapPattern{
+        display: none;
+    }
+
+    .contactTitle{
+        font-size: 28px;
+        line-height: normal;
+        text-align: center;
+        letter-spacing: 5px;
+    }
+
+    .contactTitlePatern2{
+        display: block;
+    }
+
+    .contact{
+        margin-top: 122px;
+    }
+
+    .footerMenuItem li{
+        font-size: 1.6vmin;
+    }
+
+    .footerNumber{
+        display: none !important;
+    }
+
+    .footer .logo{
+        width: 97px;
+    }
+
+    .footerMenuItem{
+        margin-top: 25px;
+    }
+    .logoNumber{
+        display: block;
+    }
+    .footer .footerlogoPattern{
+        display: none;
+    }
+
+    .footer .footerweapon{
+        display: none;
+    }
+
+    .copriting{
+        position: relative;
+    }
+
+    .copriting:before{
+        content:'';
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: linear-gradient(89.94deg, #DF172D , rgba(223, 23, 45, 0));
+
+    }
+
+    .footerlogoPattern2{
+        display: block;
+    }
+
+    .footer{
+        margin-top: 73px;
+    }
+
+
+
+    .howSaleBody{
+        margin: 0;
+    }
+    .howSaleBody:before{
+        width: 100%;
+        height: 4px;
+        left: -10px;
+        top: -40px;
+        background: linear-gradient(to left, #DF172D 0.01%, rgba(223, 23, 45, 0) 100%);
+    }
+
+    .nowrapText{
+        white-space: normal;
+    }
 }
 
 @media(max-width: 768px){
@@ -395,7 +496,31 @@
     .rectanglePaternX{
         left: -100px;
     }
-    
+    .footerMenuItem li{
+        font-size: 16px;
+    }
+
+    .footer{
+        margin-top: 9px;
+        padding-top: 69px;
+    }
+
+    .footerCopiraiting{
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .copriting:before{
+        top:84px;
+    }
+
+    .footerlogoPattern2{
+        display: none;
+    }
+
+    .footerlogoPattern3{
+        display: block;
+    }
 
 }
 
@@ -418,5 +543,13 @@
 
     .aboutSaleTitle h2{
         font-size: 7vmin;
+    }
+
+    .logoNumber{
+        font-size: 16px;
+    }
+
+    .footerMenuItem li {
+        font-size: 13px;
     }
 }
