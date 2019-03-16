@@ -21,6 +21,9 @@
 }
 
 @media(max-width: 1200px){
+    .arrow{
+        display: block;
+    }
     nav{
         display: none;
     }
@@ -125,18 +128,49 @@
         margin-top: 100px;
         position: relative;
     }
+
+    header .patern{
+        top:26px;
+        left: -258px;
+    }
+
+    header{
+        padding-top: 0;
+    }
+
+    .sale .paralax10{
+        position: absolute;
+        right: 3%;
+        top: 38%;
+        width: 4%;
+        z-index: 3;
+    }
+
+    .nowrapText{
+        white-space: normal;
+    }
     
 }
 
 
 @media(max-width: 992px){
+    .sale .paralax10{
+        position: absolute;
+        right: 24%;
+        top: 26%;
+        width: 4%;
+        z-index: 3;
+    }
+    header{
+        padding-top: 6px;
+    }
     .redLine{
         width: 500px;
     }
     .sale .paralax{
-        width: 520px;
-        top: 0px;
-        right: 0px;
+        width: 650px;
+        top: -120px;
+        right: -100px;
     }
 
     .sale .paralax3{
@@ -289,6 +323,7 @@
 
     .rewievItem{
         width: 100%;
+        margin-top: 32px;
     }
     .rewievItemPattern{
         display: none;
@@ -397,12 +432,46 @@
         background: linear-gradient(to left, #DF172D 0.01%, rgba(223, 23, 45, 0) 100%);
     }
 
-    .nowrapText{
-        white-space: normal;
+    
+
+    header .patern{
+        display: none;
+    }
+
+    .patern2{
+        display: block;
+        position: absolute;
+        top: 26px;
+        left: -45px;
+    }
+
+    .sale .paralax4{
+        position: absolute;
+        right: 30%;
+        top: 2%;
+        width: 15%;
+        z-index: -3;
+    }
+
+    .advantages.animate .animateTitleText{
+        font-weight: ventibold;
+        width: 315px;
+        font-size: 28px;
+        line-height: normal;
+        text-align: center;
+        letter-spacing: 5px;
+        margin: 0 auto;
     }
 }
 
 @media(max-width: 768px){
+    .sale .paralax10{
+        position: absolute;
+        right: 24%;
+        top: 20%;
+        width: 4%;
+        z-index: 3;
+    }
     .redLine{
         display: none;
     }
@@ -412,11 +481,25 @@
     }
 
     .sale .paralax {
-        width: 400px;
-        top: 0px;
-        right: 0px;
+        width: 650px;
+        top: -120px;
+        right: -100px;
     }
 
+    
+
+    .mapPattern{
+        display: none;
+    }
+
+    .map{
+        margin-top: 88px;
+    }
+
+
+}
+
+@media(max-width: 766px){
     .aboutSaleTitle{
         position: initial;
         width: 100%;
@@ -444,18 +527,17 @@
         width: 100%;
     }
 
-    .mapPattern{
+    .arrow{
         display: none;
     }
-
-    .map{
-        margin-top: 88px;
-    }
-
-
 }
 
 @media(max-width: 576px){
+    .patern2{
+        position: absolute;
+        top: 26px;
+        left: -40%;
+    }
     .redLine{
         display: none;
     }

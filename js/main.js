@@ -9,6 +9,7 @@ $(function(){
     paralax7 : $('.paralax7'),
     paralax8 : $('.paralax8'),
     paralax9 : $('.paralax9'),
+    paralax10 : $('.paralax10'),
     paralaxfon2 : $('.paralaxfon2'),
   }
 
@@ -49,6 +50,9 @@ $(function(){
     })
     paralax.paralax9.css({
       'transform':'translate3d('+(position.valueX2/-5)+'px, '+(position.valueY2/-5)+'px, 0)'
+    })
+    paralax.paralax10.css({
+      'transform':'translate3d('+(position.valueX2/4)+'px, '+(position.valueY2/4)+'px, 0)'
     })
     paralax.paralaxfon2.css({
       'transform':'translate3d('+(position.valueX2/-6)+'px, '+(position.valueY2/-6)+'px, 0)'

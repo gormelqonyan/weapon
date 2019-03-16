@@ -13,6 +13,11 @@
 	font-family: ventimedium;
 }
 
+@font-face{
+	src: url(../fonts/helvetic.ttf);
+	font-family: helvetic;
+}
+
 /************************************
 
   MAP STYLING 
@@ -122,18 +127,19 @@ body{
 }
 
 header{
-	margin-top: 30px;
+	padding-top: 30px;
 	position: relative;
 }
 
 header .patern{
 	position: absolute;
-	width: 50%;
-	height: 30px;
-
-	top:10.78%;
-	left: 0%;
+	top: 40px;
+	left: -38px;
 	z-index: -1;
+}
+
+.patern2{
+	display: none;
 }
 
 nav ul{
@@ -147,6 +153,7 @@ nav ul li{
 	cursor: pointer;
 	transition: 0.2s;
 	line-height: normal;
+	font-family: ventimedium;
 }
 
 nav ul li:hover{
@@ -299,7 +306,11 @@ nav ul li:hover{
   }
 
   .sale-form .md-form input{
-    border-bottom: 2px solid #48403B;
+		border-bottom: 2px solid #48403B;
+		font-size: 20px;
+		line-height: normal;
+		letter-spacing: 3px;
+		color: #f8f8f8;
   }
 
   .sale-form .md-form input[type=text]:focus:not([readonly])+label{
@@ -322,7 +333,8 @@ nav ul li:hover{
 	.sale .paralax5 svg,
 	.sale .paralax7 svg,
 	.sale .paralax8 svg,
-	.sale .paralax9 svg{
+	.sale .paralax9 svg,
+	.sale .paralax10 svg{
 		width: 100%;
 	}
 
@@ -400,6 +412,14 @@ nav ul li:hover{
 		top: 20%;
 		width: 18%;
     z-index: -4;
+	}
+
+	.sale .paralax10{
+		position: absolute;
+    right: 1%;
+    top: 39%;
+    width: 18%;
+    z-index: 3;
 	}
 
   .sale .paralax img.paralaxfon2{
@@ -767,6 +787,13 @@ nav ul li:hover{
 	left:-158px;
 }
 
+.arrow{
+	display: none;
+	position: absolute;
+	top: 50px;
+	left: -39px;
+}
+
 /**************************/
 
 .howSaletitle{
@@ -801,7 +828,7 @@ nav ul li:hover{
 }
 
 .howSale p{
-	font-family: ventimedium;
+	font-family: helvetic;
 	line-height: 20px;
 	font-size: 16px;
 	letter-spacing: 1px;
@@ -953,6 +980,7 @@ PRODUCT STYLE
 .productitem{
 	width: 258px;
 	margin: 21.5px 28.5px;
+	transition: 0.5s;
 }
 
 .productItemTitle{
@@ -1015,7 +1043,9 @@ PRODUCT STYLE
 .productItemPrice svg{
 	margin-left: 8px;
 }
-
+.productitem:hover{
+	transform: scale(1.07)
+}
 .productitem:hover .circle{
 	background: #DF172D;
 	cursor: pointer;
@@ -1147,7 +1177,7 @@ PRODUCT STYLE
 
 .rewievItemBody{
 	margin-left: 99px;
-	font-family: ventimedium;
+	font-family: helvetic;
 	font-size: 16px;
 	line-height: 20px;
 	letter-spacing: 1px;
@@ -1188,7 +1218,7 @@ SEO SECTION STYLE
 }
 
 .seoContentBody{
-	font-family: ventimedium;
+	font-family: helvetic;
 	font-size: 16px;
 	line-height: 20px;
 	letter-spacing: 1px;
@@ -1283,13 +1313,13 @@ SEO SECTION STYLE
 	letter-spacing: 5px;
 	text-transform: uppercase;
 	color: #F9F9F9;
-	border: 2px solid #e6e1ce;
+	border: 2px solid #DF172D;
 	cursor: pointer;
 	transition: 0.2s;
 }
 
 .contactForm button:hover{
-	border-color: #DF172D;
+	border-color: #e6e1ce;
 }
 
 .contactForm .md-form label{
@@ -1307,7 +1337,13 @@ SEO SECTION STYLE
 
 .contactForm .md-form input{
 	border-bottom: 2px solid #48403B;
+	font-size: 20px;
+	line-height: normal;
+	letter-spacing: 3px;
+	color: #f8f8f8;
 }
+
+
 
 .contactForm .md-form input[type=text]:focus:not([readonly])+label{
 	color: #DF172D;
