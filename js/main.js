@@ -141,7 +141,6 @@ $(function(){
         $('.contact').addClass('animate')
       }
   
-      console.log($(window).scrollTop())
     })
   
   }
@@ -149,13 +148,21 @@ $(function(){
   scroll();
 
   
-   
+  $(".menu-icon").on("click", function() {
+    $(this).toggleClass("active");
+    $(this).find("div").removeClass("no-animation");
+    $('.subMenu').toggleClass('active')
+    $('.subMenuRedPattern').toggleClass('active')
+  });
 
-
-
-
-
-
+  $(window).resize(function(){
+    if($(this).width() > 1200){
+      $(".menu-icon").removeClass('active')
+      $('.subMenu').removeClass('active')
+      $('.subMenuRedPattern').removeClass('active')
+    }
+  })
+  
 
   ymaps.ready(init);
 
