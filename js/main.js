@@ -75,72 +75,32 @@ $(function(){
   });
 
   
+  
   var scroll = function(){
+    var animate = function(x, y, name){
+      if($(window).scrollTop() <= x && $(window).scrollTop() >= y ){
+        $(name).addClass('animate')
+      }
+    }
     $('.sale').addClass('animate')
-    if($(window).scrollTop() <= 279 && $(window).scrollTop() >= 179 ){
-      $('.aboutSale').addClass('animate')
-    }
-    if($(window).scrollTop() >= 500 && $(window).scrollTop() <= 600 ){
-      $('.animation').addClass('animate')
-    }
-
-    if($(window).scrollTop() >= 1200 && $(window).scrollTop() <= 1400 ){
-      $('.howSale').addClass('animate')
-    }
-
-    if($(window).scrollTop() >= 1200 && $(window).scrollTop() <= 1400 ){
-      $('.howSale').addClass('animate')
-    }
-
-    if($(window).scrollTop() >= 1600 && $(window).scrollTop() <= 1800 ){
-      $('.advantages').addClass('animate')
-    }
-
-    if($(window).scrollTop() >= 1600 && $(window).scrollTop() <= 1800 ){
-      $('.product').addClass('animate')
-    }
-
-    if($(window).scrollTop() >= 3000 && $(window).scrollTop() <= 3200 ){
-      $('.rewiev').addClass('animate')
-    }
-
-    if($(window).scrollTop() >= 3800 && $(window).scrollTop() <= 4100 ){
-      $('.contact').addClass('animate')
-    }
-
+    animate(279, 179, '.aboutSale');
+    animate(600, 500, '.animation');
+    animate(1400, 1200, '.howSale');
+    animate(1800, 1600, '.advantages');
+    animate(2000, 1800, '.product');
+    animate(3200, 3000, '.rewiev');
+    animate(4100, 3800, '.contact');
 
 
     $(window).on('scroll', function(){
-      if($(window).scrollTop() >= 179 && $(window).scrollTop() <= 279 ){
-        $('.aboutSale').addClass('animate')
-      }
-
-      if($(window).scrollTop() >= 500 && $(window).scrollTop() <= 600 ){
-        $('.animation').addClass('animate')
-      }
-
-      if($(window).scrollTop() >= 1200 && $(window).scrollTop() <= 1400 ){
-        $('.howSale').addClass('animate')
-      }
-
-      if($(window).scrollTop() >= 1200 && $(window).scrollTop() <= 1400 ){
-        $('.howSale').addClass('animate')
-      }
-
-      if($(window).scrollTop() >= 1600 && $(window).scrollTop() <= 1800 ){
-        $('.advantages').addClass('animate')
-      }
-      if($(window).scrollTop() >= 1800 && $(window).scrollTop() <= 2000 ){
-        $('.product').addClass('animate')
-      }
-      if($(window).scrollTop() >= 3000 && $(window).scrollTop() <= 3200 ){
-        $('.rewiev').addClass('animate')
-      }
-
-      if($(window).scrollTop() >= 3800 && $(window).scrollTop() <= 4100 ){
-        $('.contact').addClass('animate')
-      }
-  
+      animate(279, 179, '.aboutSale');
+      animate(600, 500, '.animation');
+      animate(1400, 1200, '.howSale');
+      animate(1800, 1600, '.advantages');
+      animate(2000, 1800, '.product');
+      animate(3200, 3000, '.rewiev');
+      animate(4100, 3800, '.contact');
+    
     })
   
   }

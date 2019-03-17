@@ -149,6 +149,14 @@
     .nowrapText{
         white-space: normal;
     }
+
+    .subHeaderNumber{
+        display: block;
+    }
+
+    .headerNumberPattern{
+        display: none;
+    }
     
 }
 
@@ -486,8 +494,6 @@
         right: -100px;
     }
 
-    
-
     .mapPattern{
         display: none;
     }
@@ -495,6 +501,13 @@
     .map{
         margin-top: 88px;
     }
+
+    .subHeaderNumber, .headerBotomLine{
+        display: none !important;
+    }
+
+    
+    
 
 
 }
@@ -604,6 +617,14 @@
         display: block;
     }
 
+    .subMenuRedPattern{
+        display: none;
+    }
+
+    .breadCrumb, .contactTitlePatternX{
+        display: none;
+    }
+
 }
 
 @media(max-width: 400px){
@@ -632,6 +653,19 @@
     }
 
     .footerMenuItem li {
+        font-size: 13px;
+    }
+
+    .subMenu.active{
+        width: 100%;
+    }
+
+    
+}
+
+@media(max-width: 350px){
+    .subMenu ul li{
+        margin-bottom: 30px;
         font-size: 13px;
     }
 }

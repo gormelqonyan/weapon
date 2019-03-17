@@ -326,6 +326,7 @@
 	transition: 0.4s;
 	transition-delay: 0.4s;
 	width: 430px;
+	z-index: 1;
 }
 
 
@@ -388,9 +389,14 @@ nav ul li{
 	font-family: ventimedium;
 }
 
-nav ul li:hover{
+nav ul li a{
+	color: #E6E1CE;
+}
+
+nav ul li a:hover{
 	color: #DF172D;
 }
+
 .menuBtn{
 	font-size: 28px;
 	cursor: pointer;
