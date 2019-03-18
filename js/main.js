@@ -65,13 +65,13 @@ $(function(){
   }
 
   $('.select').click(function() {
-    $('.select-options').toggleClass('visible');
+    $(this).find('.select-options').toggleClass('visible');
   });
   $('.select-options li').click(function() {
     $('.selected').removeClass('selected');
     $(this).addClass('selected');
-    $('.select .input').text($(this).find('span:first-child').text());
-    $('.select-hidden').val($(this).find('span:first-child').text())
+    $(this).closest('.select').find('.input').text($(this).find('span:first-child').text());
+    $(this).closest('.select').find('.select-hidden').val($(this).find('span:first-child').text())
   });
 
   
@@ -121,6 +121,17 @@ $(function(){
       $('.subMenu').removeClass('active')
       $('.subMenuRedPattern').removeClass('active')
     }
+  })
+
+
+  $('.saleWeaponBtn').on('click', function(){
+    $('.black-window').addClass('active');
+    $('.sale-form-modal-content').addClass('active');
+  })
+
+  $('.black-window, .sale-form-modal-close').on('click', function(){
+    $('.black-window').removeClass('active');
+    $('.sale-form-modal-content').removeClass('active');
   })
   
 
