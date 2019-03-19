@@ -124,7 +124,7 @@ $(function(){
   })
 
 
-  $('.saleWeaponBtn').on('click', function(){
+  $('.saleWeaponBtn, .weaponAboutButton').on('click', function(){
     $('.black-window').addClass('active');
     $('.sale-form-modal-content').addClass('active');
   })

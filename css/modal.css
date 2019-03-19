@@ -1,0 +1,117 @@
+.sale-form .input,
+.sale-form-modal .input{
+	font-family: ventimedium;
+	line-height: normal;
+	font-size: 16px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+.sale-form h5,
+.sale-form-modal h5{
+	margin-top: 10px;
+	font-family: ventimedium;
+	line-height: normal;
+	font-size: 20px;
+	letter-spacing: 5px;
+	color: #48403B;
+}
+
+.sale-form-modal-content{
+	width: 1054px;
+	position: fixed;
+	top: 45%;
+	right: 50%;
+	z-index: -1;
+	transform: translate(50%, -50%);
+	opacity: 0;
+	transition: 0.4s;
+}
+
+.sale-form-modal-content.active{
+	top: 50%;
+	z-index: 60;
+	opacity: 1;
+}
+
+.sale-form-modal-redPattern{
+	position: absolute;
+	z-index: -1;
+	top: 134px;
+	left: 214px;
+}
+
+.sale-form-modal-pattern{
+	position: absolute;
+	top: 182px;
+	left: 40px;
+	z-index: -1;
+}
+
+
+.sale-form-modal{
+	width: 100%;
+	padding: 70px 170px 70px 170px;
+	background: #191919;
+	position: relative;
+	z-index: 2;
+}
+
+
+.sale-form-modal-RedLine{
+	width: 100%;
+	height: 4px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	background: linear-gradient(89.97deg, #DF172D 0.01%, rgba(223, 23, 45, 0) 100%);
+}
+
+.sale-form-modal-close{
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	cursor: pointer;
+}
+
+.sale-form-modal-title{
+	position: absolute;
+	top: 373px;
+	left: 633px;
+	width: 554px;
+	font-family: ventimedium;
+	font-size: 20px;
+	line-height: normal;
+	letter-spacing: 5px;
+	color: #DF172D;
+	transform: rotate(90deg)
+}
+
+.sale-form-modal .md-form label{
+	line-height: normal;
+	font-size: 16px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #f8f8f8;
+	padding-left: 18px;
+}
+
+.sale-form-modal .md-form label.active{
+	font-size: 12px;
+}
+
+.sale-form-modal .md-form input{
+	border-bottom: 2px solid #48403B;
+	font-size: 20px;
+	line-height: normal;
+	letter-spacing: 3px;
+	color: #f8f8f8;
+}
+
+.sale-form-modal .md-form input[type=text]:focus:not([readonly])+label{
+	color: #DF172D;
+}
+.sale-form-modal .md-form input[type=text]:focus:not([readonly]){
+	-webkit-box-shadow: 0 1px 0 0 #DF172D;
+	box-shadow: 0 1px 0 0 #DF172D;
+	border-bottom: 1px solid #DF172D;
+}

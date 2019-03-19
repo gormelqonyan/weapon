@@ -186,6 +186,18 @@
         transform: rotate(0deg);
         width:100%;
     }
+
+    .weaponAboutPattern{
+        display: none;
+    }
+
+    .weaponImg {
+        left: 770px;
+    }
+
+    .productTitleRedLine{
+        width: 100%;
+    }
     
 }
 
@@ -354,7 +366,7 @@
         display: none;
     }
 
-    .productFooter button{
+    .productFooter button, .productAddBtn{
         display: flex;
     }
 
@@ -517,6 +529,10 @@
         margin-top: 22px;
     }
 
+    .weaponImgBody{
+        display: none;
+    }
+
     
 }
 
@@ -552,6 +568,10 @@
 
     .subHeaderNumber, .headerBotomLine{
         display: none !important;
+    }
+
+    .productwhiteLine{
+        width: 100%;
     }
 
     
@@ -643,7 +663,7 @@
         font-size: 6vmin;
     }
 
-    .productFooter button{
+    .productFooter button, .productAddBtn{
        width: 100%;
     }
 

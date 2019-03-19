@@ -318,3 +318,296 @@
 	left: 173px;
 	z-index: -1;
 }
+
+
+/************************************
+  WEAPON ABOUT STYLE
+*************************************/
+
+
+.weaponAboutContent{
+	margin-top: 39px;
+	font-family: helvetic;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	color: #A09B87;
+}
+
+.weaponImg{
+	width: 700px;
+    position: absolute;
+    top: 270px;
+    left: 950px;
+}
+
+.weaponImg img{
+	width: 100%;
+}
+
+.weaponImgBody{
+	position: relative;
+}
+
+
+.weapon-form h2{
+	color: #DF172D;
+	font-family: ventimedium;
+	line-height: normal;
+	font-size: 20px;
+	letter-spacing: 5px;
+}
+
+
+.weapon-form .md-form label{
+	line-height: normal;
+	font-size: 16px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #f8f8f8;
+	padding-left: 18px;
+}
+
+.weapon-form .md-form label.active{
+  font-size: 12px;
+}
+
+.weapon-form .md-form input{
+	border-bottom: 2px solid #48403B;
+	font-size: 20px;
+	line-height: normal;
+	letter-spacing: 3px;
+	color: #f8f8f8;
+}
+
+.weapon-form .md-form input[type=text]:focus:not([readonly])+label{
+  color: #DF172D;
+}
+.weapon-form .md-form input[type=text]:focus:not([readonly]){
+-webkit-box-shadow: 0 1px 0 0 #DF172D;
+box-shadow: 0 1px 0 0 #DF172D;
+border-bottom: 1px solid #DF172D;
+}
+
+
+
+
+.weapon-form-modal .md-form label{
+	line-height: normal;
+	font-size: 16px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #f8f8f8;
+	padding-left: 18px;
+}
+
+.weapon-form-modal .md-form label.active{
+	font-size: 12px;
+}
+
+.weapon-form-modal .md-form input{
+	border-bottom: 2px solid #48403B;
+	font-size: 20px;
+	line-height: normal;
+	letter-spacing: 3px;
+	color: #f8f8f8;
+}
+
+.weapon-form-modal .md-form input[type=text]:focus:not([readonly])+label{
+	color: #DF172D;
+}
+.weapon-form-modal .md-form input[type=text]:focus:not([readonly]){
+-webkit-box-shadow: 0 1px 0 0 #DF172D;
+	box-shadow: 0 1px 0 0 #DF172D;
+	border-bottom: 1px solid #DF172D;
+}
+
+.weaponAboutButton, .saleWeaponBtn2{
+	width: 100%;
+	padding: 1rem;
+	background: transparent;
+	font-family: ventimedium;
+	line-height: normal;
+	font-size: 16px;
+	text-align: center;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #F9F9F9;
+	border: 2px solid #DF172D;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.weaponAboutButton:hover, .saleWeaponBtn2:hover{
+	border-color: #F9F9F9;
+}
+
+.weapon-form h5{
+	margin-top: 10px;
+	font-family: ventimedium;
+	line-height: normal;
+	font-size: 20px;
+	letter-spacing: 5px;
+	color: #48403B;
+}
+
+.weaponAboutPattern{
+	position: absolute;
+    top: 0px;
+    left: -90px;
+}
+
+/************************************
+  WEAPON ABOUT STYLE
+*************************************/
+
+.product{
+	margin-top: 51px;
+}
+
+.productTitle{
+	font-family: ventimedium;
+	font-size: 36px;
+	line-height: normal;
+	letter-spacing: 5px;
+}
+
+.productTitleRedLine{
+	width: 1107px;
+	height: 4px;
+	background: linear-gradient(89.95deg, #DF172D 0.01%, rgba(223, 23, 45, 0) 100%);
+}
+
+.productitem{
+	width: 258px;
+	margin: 21.5px 28.5px;
+	transition: 0.5s;
+}
+
+.productItemTitle{
+	font-family: ventilight;
+	font-size: 15px;
+	line-height: 19px;
+	letter-spacing: 3px;
+}
+
+.circle{
+	width: 174px;
+	height: 174px;
+	border-radius: 50%;
+	margin: 0 48px 0 36px;
+	background: #858171;
+	position: relative;
+	transition: 0.4s;
+}
+
+.productImg{
+	position: absolute;
+	right: -31px;
+	left: -45px;
+	top: 18px;
+	bottom: 55px;
+}
+
+.circlePatern{
+	position: absolute;
+	right: -99.81px;
+	left: 65px;
+	top: -22px;
+	bottom: 55px;
+	opacity: 0.4;
+}
+
+.producTitemRequest{
+	font-family: ventimedium;
+	font-size: 16px;
+	line-height: normal;
+	letter-spacing: 2px;
+	color: #DF172D;
+}
+
+.producTitemRequest:hover{
+	color: #E6E1CE;
+}
+
+.productItemPrice{
+	font-family: ventimedium;
+	font-size: 30px;
+	line-height: normal;
+	letter-spacing: 3px;
+	position: absolute;
+	left: 59px;
+	top: 127px;
+	bottom: 17px;
+}
+
+.productItemPrice svg{
+	margin-left: 8px;
+}
+.productitem:hover{
+	transform: scale(1.07)
+}
+.productitem:hover .circle{
+	background: #DF172D;
+	cursor: pointer;
+}
+
+.productwhiteLine{
+	width: 376px;
+	height: 4px;
+	background: linear-gradient(90deg, #A09B87 0%, rgba(160, 155, 135, 0) 100%);
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+.priceNumber{
+	font-family: helvetic;
+	font-size: 20px;
+	line-height: 22px;
+	letter-spacing: 1px;
+	color: #E6E1CE;
+}
+
+.priceText{
+	font-family: helvetic;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	color: #A09B87;
+	width:504px;
+}
+
+.seoTitle{
+	font-family: helvetic;
+	font-size: 20px;
+	line-height: normal;
+	letter-spacing: 1px;
+	color: #DF172D;
+	margin-top: 20px;
+}
+
+.seoText{
+	font-family: helvetic;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	color: #A09B87;
+	margin-top: 20px;
+}
+
+.productAddBtn{
+	display: none;
+	background: transparent;
+    border: 3px solid #E6E1CE;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 344px;
+    color: #E6E1CE;
+    font-family: ventimedium;
+    font-size: 16px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.2s;
+    margin: 20px 0;
+}
