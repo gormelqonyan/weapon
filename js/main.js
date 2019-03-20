@@ -133,37 +133,36 @@ $(function(){
     $('.black-window').removeClass('active');
     $('.sale-form-modal-content').removeClass('active');
   })
+
+  $('.tabs-item').on('click', function(){
+    var id = $(this).attr('data-id')
+    $('.tabsBox').removeClass('active')
+    $('#'+id).addClass('active')
+    $('.tabs-item').removeClass('active');
+    $(this).addClass('active');
+  })
   
 
-  ymaps.ready(init);
-
-function init () {
-    var myMap = new ymaps.Map("map", {
-            center: [59.96, 30.30],
-            zoom: 10
-        }),
-
-       
-
-        myPlacemark2 = new ymaps.Placemark([59.96, 30.30], {
-            // Свойства.
-            hintContent: 'Собственный значок метки'
-        }, {
-            // Опции.
-            // Своё изображение иконки метки.
-            iconImageHref: '../img/metka.svg',
-            // Размеры метки.
-            iconImageSize: [40, 34],
-            // Смещение левого верхнего угла иконки относительно
-            // её "ножки" (точки привязки).
-            iconImageOffset: [-20, -34]
-        });
-    
-    myMap.controls.add('smallZoomControl');
-    // Добавляем все метки на карту.
-    myMap.geoObjects
-        .add(myPlacemark2)
-}
-
+  var galleryThumbs = new Swiper('.gallery-thumbs', {
+    spaceBetween: $('.sliderLength').length,
+    slidesPerView: $('.sliderLength').length,
+    loop: true,
+    freeMode: true,
+    loopedSlides: $('.sliderLength').length + 1, //looped slides should be the same
+    watchSlidesVisibility: true,
+    watchSlidesProgress: true,
+  });
+  var galleryTop = new Swiper('.gallery-top', {
+    spaceBetween: $('.sliderLength').length,
+    loop:true,
+    loopedSlides: $('.sliderLength').length + 1, //looped slides should be the same
+    navigation: {
+      nextEl: '.nextBtn',
+      prevEl: '.prevBtn',
+    },
+    thumbs: {
+      swiper: galleryThumbs,
+    },
+});
 
 })

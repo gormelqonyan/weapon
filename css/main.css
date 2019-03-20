@@ -998,6 +998,7 @@ PRODUCT STYLE
 	font-size: 15px;
 	line-height: 19px;
 	letter-spacing: 3px;
+	color: #E6E1CE;
 }
 
 .circle{
@@ -1048,6 +1049,7 @@ PRODUCT STYLE
 	left: 59px;
 	top: 127px;
 	bottom: 17px;
+	color: #E6E1CE;
 }
 
 .productItemPrice svg{
