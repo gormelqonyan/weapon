@@ -86,8 +86,8 @@
 }
 .gallery-thumbs .swiper-slide-thumb-active {
 	background: #A09B87;
+	border: 3px solid #DF172D;
 }
-
 
 .sliderBtn{
 	position: absolute;
@@ -851,7 +851,41 @@ border-bottom: 1px solid #DF172D;
 
 .tabsPattern{
 	position: absolute;
-	top:-16px;
+	top:-25px;
 	left: -218px;
 	z-index: -1;
+}
+
+.swiper-pagination-bullet{
+	width: 15px;
+	height: 15px;
+}
+
+.swiper-pagination-bullet-active{
+	background: #DF172D;
+}
+
+.swiper-pagination{
+	display: none;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+	bottom: 0;
+	top: 15px;
+	left: -10px;
+	text-align: right;
+	width: 100%;
+}
+
+.sliderPattern{
+	position: absolute;
+	top: 93px;
+	left: 59px;
+	z-index: -1;
+}
+
+.pricePatternX{
+	position: absolute;
+	top: 325px;
+	left: -180px;
 }

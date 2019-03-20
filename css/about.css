@@ -1,0 +1,179 @@
+
+/*ABOUT*/
+.contentSliderAbout{
+	height: 420px;
+	/*border:2px solid red;*/
+	position: relative;
+}
+
+.aboutimgbottom{
+	position: absolute;
+	bottom: 90px;
+	right: -100px;
+}
+.textAboutTop p{
+	font-family: HelveticaNeueCyr;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 1px;
+}
+
+
+.swiper-container{
+	/*max-width: 1521px;
+	margin: 0 200px;
+	overflow: hidden;*/
+	/*margin-left: 200px;*/
+	height: 376px !important;
+	margin-top: auto !important;
+	margin-bottom: auto !important;
+}
+.swiper-wrapper{
+	margin: 0 auto;
+}
+.sliderElAbout{
+	width: 486px;
+	height: 376px;
+	background: pink;
+	/*margin: 0 15px;*/
+}
+
+.arrowLeft, .arrowRight{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	z-index: 100;
+	top: 126px;
+} 
+.arrowLeft{
+	left: 30px;
+}
+
+.arrowRight{
+	right: 30px;
+}
+
+
+
+.textBottomAbout{
+	font-family: Venti CF;
+	font-size: 36px;
+	line-height: normal;
+	letter-spacing: 5px;
+	color: #F8F8F8;
+}
+
+
+
+.cardsAbout{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cardAbout{
+	margin: 0 auto;
+	display: flex;
+	width: 281px;
+	height: 100px;
+}
+.leftImg{
+	
+}
+
+.rightTexts{
+
+}
+.rightTexts h3{
+
+}
+.rightTexts p{
+
+}
+
+
+
+
+.advantagesBodyItem{
+	width: 281px;
+	height: 100px;
+	margin: 15px 0;
+}
+
+.advantagesBodyItemText{
+	width: 191px;
+	font-family: ventimedium;
+	font-size: 20px;
+	line-height: 22px;
+	letter-spacing: 2px;
+	margin-left: 22px;
+	margin-bottom: 0;
+}
+
+
+.cardsAbout{
+	width: 100%;
+	position: relative;
+	z-index: 100;
+}
+.cardsAbout div{
+	display: flex;
+	margin: 0 auto !important;
+}
+
+
+
+
+
+.bottomBlockAbout{
+	max-width: 1262px;
+	margin: 0 auto;
+	margin-top: -40px;
+}
+.bottomBlockAbout h3{
+	font-family: HelveticaNeueCyr;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 1px;
+
+	color: #DF172D;
+}
+
+.bottomBlockAbout p{
+	margin-top: 44px;
+	font-family: HelveticaNeueCyr;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 1px;
+
+color: #A09B87;
+}
+
+@media(min-width: 700px){
+	.swiper_pagination_about{
+		display: none;
+	}
+}
+@media(max-width: 699px){
+	.swiper_pagination_about{
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		z-index: 300;
+		margin-top: -11px;
+		max-width: 100px;
+
+	}
+}
+
+.swiper-pagination-bullet{
+	width: 15px;
+	height: 15px;
+	background: #48403B !important;
+}
+.swiper-pagination-bullet-active{
+	width: 15px;
+	height: 15px;
+	background: #DF172D !important;
+}
+
+/*../ ABOUT*/

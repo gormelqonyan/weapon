@@ -581,7 +581,19 @@
     .contactTitleBox{
         width: 100%;
     }
-    
+
+    .swiper-pagination{
+        display: block;
+    }
+
+    .sliderBtn{
+        display: none;
+    }
+
+    .gallery-thumbs{
+        opacity: 0;
+        height: 0px;
+    }
 
 
 }

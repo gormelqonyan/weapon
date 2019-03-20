@@ -228,7 +228,7 @@
                 <li class="text-center">оружие<br>ТРАВМАТИЧЕСКОЕ</li>
                 <li class="text-center">оружие<br>ГАЗОВОЕ</li>
                 <li class="text-center">оружие<br>ПНЕВМАТИЧЕСКОЕ</li>
-                <li class="text-center">О НАС</li>
+                <li class="text-center"><a href="about.php">О НАС</a></li>
                 <li class="text-center"><a href="contact.php">КОНТАКТЫ</a></li>
             </ul>
         </nav>

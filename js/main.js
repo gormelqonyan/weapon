@@ -151,6 +151,7 @@ $(function(){
     loopedSlides: $('.sliderLength').length + 1, //looped slides should be the same
     watchSlidesVisibility: true,
     watchSlidesProgress: true,
+    
   });
   var galleryTop = new Swiper('.gallery-top', {
     spaceBetween: $('.sliderLength').length,
@@ -163,6 +164,12 @@ $(function(){
     thumbs: {
       swiper: galleryThumbs,
     },
-});
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+
+  
 
 })

@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>русский оружейный ломбард</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
+    <title>русский оружейный ломбард</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
 
-	<!-- PLUGINS STYLE -->
+    <!-- PLUGINS STYLE -->
 
-	<link rel="stylesheet" type="text/css" href="css/plugin/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/plugin/mdb.min.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/plugin/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/plugin/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/plugin/mdb.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 
-
-
-	<link rel="stylesheet" type="text/css" href="css/headerFooter.css">
+    <link rel="stylesheet" type="text/css" href="css/headerFooter.css">
     <link rel="stylesheet" type="text/css" href="css/contact.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <link rel="stylesheet" type="text/css" href="css/about.css">
+    <link rel="stylesheet" type="text/css" href="css/plugin/swiper.min.css">
+
+    <script src="js/plugin/swiper.min.js"></script>
     
-	
-	
+    <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    
 </head>
 
 <body>
@@ -67,7 +72,7 @@
                 <section class="contact">
                     <div class="big-container">
                         <h2 class="contactTitle">
-                            <div class="contactTitleBox">Травматический автомат МР-80-13Т 45 Rubber</div>
+                            <div>О нас</div>
                             
                             <div class="contactTitlePatternX">
                                 <svg width="142" height="142" viewBox="0 0 142 142" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -157,162 +162,207 @@
                                 </svg>
                                         
                             </div>
+
+                            
+                            
                         </h2>
-
-                        <img src="img/pricePatternX.svg" alt="pricePatternX" class="pricePatternX">
-
-                        <div class="row align-items-center">
-                            <div class="col-xl-6 order-1 order-xl-0"> 
-                                <div class="d-flex justify-content-between align-items-center productBox">
-                                    <div class="priceTitle">Цена:</div>
-                                    <div class="priceLine"></div>
-                                    <div class="d-flex align-items-center price">
-                                        15_000 
-                                        <svg width="14" height="19" viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.3237 10.9207C12.3381 10.9207 14 9.31469 14 7.31339V3.60728C14 1.63069 12.3633 0 10.3237 0H2.76978V0.889467V1.48244V9.43823H0V10.9207H2.76978V13.4655H0V14.948H2.76978V19H4.28058V14.948H13.018V13.4655H4.28058V10.9207H10.3237ZM4.28058 1.48244H10.3237C11.5072 1.48244 12.4892 2.42133 12.4892 3.60728V7.3381C12.4892 8.49935 11.5324 9.46294 10.3237 9.46294H4.28058V1.48244Z" fill="#DF172D"></path>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between align-items-center productBox">
-                                    <div class="priceTitle">Модель:</div>
-                                    <div class="priceLine"></div>
-                                    <div class="d-flex align-items-center productAboutText">
-                                        МР-80-13Т
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between align-items-center productBox">
-                                    <div class="priceTitle">Калибр:</div>
-                                    <div class="priceLine"></div>
-                                    <div class="d-flex align-items-center productAboutText">
-                                        10 ТК
-                                    </div>
-                                </div>
-                                <a class="button">Оставить заявку</a>
-                            </div>
-                            <div class="col-xl-6 order-0 order-xl-1">
-                                    <div class="sliderBox">
-                                        <img src="img/sliderPattern.svg" alt="pattern" class="sliderPattern">
-                                        <div class="swiper-container gallery-top">
-                                            <div class="swiper-pagination"></div>
-                                            <div class="swiper-wrapper ">
-                                                <div class="swiper-slide sliderLength">
-                                                    <img src="img/weapon.png">
-                                                </div>
-                                                <div class="swiper-slide sliderLength">
-                                                    <img src="img/weapon.png">
-                                                </div>
-                                                <div class="swiper-slide sliderLength">
-                                                    <img src="img/weapon.png">
-                                                </div>
-                                            </div> 
-                                            <!-- Add Arrows -->
-                                            <div class="nextBtn sliderBtn">
-                                                <img src="img/nextBtn.svg" alt="next">
-                                            </div>
-                                            <div class="prevBtn sliderBtn">
-                                                <img src="img/prev.svg" alt="prev">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-container gallery-thumbs">
-                                            <div class="swiper-wrapper">
-                                                <div class="swiper-slide">
-                                                    <img src="img/weapon.png">
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <img src="img/weapon.png">
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <img src="img/weapon.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>    
-
-                                </div>
-                            </div>
-                        </div>
                         
-                        
-                    </div>
-                </section>
+                     
 
-                <section class="my-4">
-                    <div class="big-container">
-                        <ul class="tabs d-flex">
-                            <img src="img/tabs.svg" alt="tabs" class="tabsPattern">
-                            <li class="tabs-item active d-flex justify-content-center align-items-center" data-id="description">Описание</li>
-                            <li class="tabs-item  d-flex justify-content-center align-items-center" data-id="specification">характеристики</li>
-                        </ul>
 
-                        <div class="tabsBox my-4"  id="specification">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="d-flex justify-content-between align-items-center specifications">
-                                        <div class="specificationsTitle">Емкость магазина:</div>
-                                        <div class="specificationsLine"></div>
-                                        <div class="d-flex align-items-center specificationsText">
-                                            6 патронов
-                                        </div>
-                                    </div>
-
-                                    <div class="d-flex justify-content-between align-items-center specifications">
-                                        <div class="specificationsTitle">Вес (кг) </div>
-                                        <div class="specificationsLine"></div>
-                                        <div class="d-flex align-items-center specificationsText">
-                                            0.73 кг
-                                        </div> 
-                                    </div>
-
-                                    <div class="d-flex justify-content-between align-items-center specifications">
-                                        <div class="specificationsTitle">Габариты</div>
-                                        <div class="specificationsLine"></div>
-                                        <div class="d-flex align-items-center specificationsText">
-                                            162 х 127 х 30мм
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="d-flex justify-content-between align-items-center specifications">
-                                        <div class="specificationsTitle">Производитель </div>
-                                        <div class="specificationsLine"></div>
-                                        <div class="d-flex align-items-center specificationsText">
-                                            Ижевск (Россия)
-                                        </div>
-                                    </div>
-
-                                    <div class="d-flex justify-content-between align-items-center specifications">
-                                        <div class="specificationsTitle">Год выпуска</div>
-                                        <div class="specificationsLine"></div>
-                                        <div class="d-flex align-items-center specificationsText">
-                                            2021
-                                        </div> 
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tabsBox active specificationText my-4" id="description">
-                            <h4>Заголовок</h4>
+                        <div class="textAboutTop">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</p>
+
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                         </div>
-                    </div>
+
+
+<div class="contentSliderAbout">
+                        
+  <div class="swiper-container">
+
+    <div class="arrowLeft"><img src="img/slideraboutleft.svg" alt=""></div>
+
+    <div class="swiper-wrapper">
+        <div class="swiper-slide sliderElAbout" style="background: url('img/aboutslide1.jpg') center no-repeat;"></div>
+        <div class="swiper-slide sliderElAbout" style="background: url('img/aboutslide2.jpg') center no-repeat;"></div>
+        <div class="swiper-slide sliderElAbout" style="background: url('img/aboutslide3.jpg') center no-repeat;"></div>
+   </div>
+
+<div class="arrowRight"><img src="img/slideraboutright.svg" alt=""></div>
+    <div class="swiper_pagination_about"></div>
+                           
+</div>
+    
+ <img class="aboutimgbottom" src="img/about1.svg" alt="">
+ </div>
+
+<p class="textBottomAbout">Наши приемущества</p>
+<div class="lineAbout">
+    <img src="img/lineAbout.svg" alt="">
+</div>
+
+<div class="cardsAbout">
+
+    <div class="advantagesBodyItem align-items-center justify-content-center">
+        <svg width="46" height="51" viewBox="0 0 46 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M42.5499 10.75H3.4499L1.1499 11.9V18.8L4.5999 21.1L3.4499 23.4V44.1L9.1999 45.25H36.7999L41.3999 44.1L42.5499 41.8V25.7V21.1L44.8499 16.5V13.05L42.5499 10.75Z" fill="#48403B"/>
+            <path d="M19.5499 45.25L18.3999 10.75H26.4499L27.5999 45.25H19.5499Z" fill="#DF172D"/>
+            <path d="M39.5359 46.4001H6.46397C4.05874 46.4001 2.10449 44.5843 2.10449 42.1632V23.854C2.10449 21.5843 4.05874 19.6172 6.46397 19.6172H18.0391V21.8869H6.46397C5.41168 21.8869 4.35939 22.7948 4.35939 23.854V42.1632C4.35939 43.2224 5.26135 44.1303 6.46397 44.1303H39.5359C40.5881 44.1303 41.6404 43.2224 41.6404 42.1632V23.854C41.6404 22.7948 40.7385 21.8869 39.5359 21.8869H27.9607V19.6172H39.5359C41.9411 19.6172 43.8953 21.433 43.8953 23.854V42.1632C43.8953 44.5843 41.9411 46.4001 39.5359 46.4001Z" fill="#A09B87"/>
+            <path d="M27.3595 11.2948H23C22.3987 11.2948 21.7974 10.8408 21.7974 10.0842V5.84739C21.7974 2.82108 24.2026 0.400024 27.2091 0.400024C30.2157 0.400024 32.6209 2.82108 32.6209 5.84739C32.7712 8.87371 30.366 11.2948 27.3595 11.2948ZM24.2026 9.02502H27.3595C29.1634 9.02502 30.5163 7.51186 30.5163 5.84739C30.5163 4.18292 29.0131 2.66976 27.3595 2.66976C25.5555 2.66976 24.2026 4.18292 24.2026 5.84739V9.02502Z" fill="#DF172D"/>
+            <path d="M22.9998 11.2948H18.6403C15.6337 11.2948 13.2285 8.87371 13.2285 5.84739C13.2285 2.82108 15.6337 0.400024 18.6403 0.400024C21.6468 0.400024 24.052 2.82108 24.052 5.84739V10.2355C24.2024 10.8408 23.6011 11.2948 22.9998 11.2948ZM18.6403 2.51844C16.8364 2.51844 15.4834 4.0316 15.4834 5.69608C15.4834 7.36055 16.9867 8.8737 18.6403 8.8737H21.7971V5.84739C21.9475 4.0316 20.4442 2.66976 18.6403 2.51844Z" fill="#DF172D"/>
+            <path d="M41.6405 21.853H27.5098V19.6167H41.6405C42.6928 19.6167 43.7451 18.7222 43.7451 17.6786V13.6534C43.7451 12.6098 42.8431 11.7153 41.6405 11.7153H4.35948C3.30719 11.7153 2.2549 12.6098 2.2549 13.6534V17.6786C2.2549 18.7222 3.15686 19.6167 4.35948 19.6167H18.4902V21.853H4.35948C1.95425 21.853 0 20.064 0 17.6786V13.6534C0.150327 11.268 1.95425 9.479 4.35948 9.479H41.6405C44.0458 9.479 46 11.268 46 13.6534V17.6786C46 19.9149 44.0458 21.853 41.6405 21.853Z" fill="#A09B87"/>
+            <path d="M27.2088 46.4H18.7905C18.1892 46.4 17.5879 45.9461 17.5879 45.1895V10.3869C17.5879 9.78161 17.6482 9.59973 18.3999 9.59973H27.5999C28.2012 9.59973 28.4114 9.63029 28.4114 10.3869V45.1895C28.2611 45.9461 27.8101 46.4 27.2088 46.4ZM19.9931 44.1303H26.0062V11.7487H19.9931V44.1303Z" fill="#A09B87"/>
+        </svg>
+        <p class="advantagesBodyItemText">
+            <span style="color: #DF172D">БЕСПЛАТНАЯ</span> 
+            оценка
+        </p>
+    </div>
+    <div class="advantagesBodyItem  align-items-center justify-content-center">
+        <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M25.3001 36.8L19.5501 31.05L17.2501 34.5L10.3501 32.2L12.6501 36.8L18.4001 41.4V44.85L24.1501 40.25L25.3001 36.8Z" fill="#48403B"/>
+            <path d="M19.5498 8.05002L26.4498 14.95L27.5998 12.65H29.8998L35.6498 14.95L33.3498 8.05002L27.5998 4.60002L26.4498 1.15002L19.5498 8.05002Z" fill="#48403B"/>
+            <path d="M4.5998 18.4L2.2998 19.55L8.0498 26.45L11.4998 23L14.9498 18.4H12.6498V16.1L13.7998 10.35L8.0498 13.8L4.5998 18.4Z" fill="#48403B"/>
+            <path d="M36.7998 20.7L31.0498 26.45L33.3498 27.6V31.05L32.1998 35.65L37.9498 32.2L41.3998 27.6H44.8498L36.7998 20.7Z" fill="#48403B"/>
+            <path d="M18.7126 46C18.5622 46 18.4118 46 18.2613 45.8489C17.81 45.6977 17.5092 45.2444 17.5092 44.791V42.6753C15.8544 41.9197 14.3501 40.8619 13.1466 39.5018C10.7397 36.9327 9.23538 33.6081 9.38582 30.4345C9.38582 29.9812 9.68668 29.5278 10.138 29.3767C10.5893 29.2256 11.0406 29.3767 11.3414 29.6789C12.244 30.7368 13.2971 31.6435 14.3501 32.0969C15.4031 32.5502 16.4561 32.7013 17.5092 32.7013V29.8301C17.5092 29.3767 17.81 28.9233 18.2613 28.7722C18.7126 28.6211 19.1639 28.6211 19.4648 29.0744L26.9864 36.6305C27.4377 37.0838 27.4377 37.8395 26.9864 38.2928L19.4648 45.8489C19.1639 46 19.0135 46 18.7126 46ZM11.9432 33.4569C12.3945 35.1193 13.4475 36.6305 14.6509 37.9906C15.8544 39.1995 17.3587 40.2574 19.0135 40.8619C19.4648 41.013 19.7656 41.4663 19.7656 41.9197V42.222L24.5795 37.3861L19.7656 32.5502V33.7592C19.7656 34.3637 19.3144 34.817 18.8631 34.817C17.0579 35.1193 15.1022 34.9682 13.4475 34.2126C12.9962 34.0614 12.3945 33.7592 11.9432 33.4569Z" fill="#A09B87"/>
+            <path d="M27.1371 17.287C26.8363 17.287 26.5354 17.1359 26.385 16.9848L18.8634 9.42877C18.7129 9.27765 18.5625 8.97541 18.5625 8.67317C18.5625 8.37093 18.7129 8.06868 18.8634 7.91756L26.385 0.361527C26.6858 0.0592854 27.1371 -0.0918353 27.5884 0.0592854C28.0397 0.210406 28.3406 0.663768 28.3406 1.11713V3.38394C29.9954 4.13955 31.4997 5.19739 32.7031 6.55748C35.1101 9.12653 36.6144 12.4512 36.464 15.6247C36.464 16.0781 36.1631 16.5314 35.7118 16.6826C35.2605 16.8337 34.8092 16.6826 34.5083 16.3803C33.6057 15.3225 32.5527 14.4158 31.4997 13.9624C30.4467 13.509 29.3936 13.3579 28.3406 13.3579V16.2292C28.3406 16.6826 28.0397 17.1359 27.5884 17.287C27.438 17.287 27.2876 17.287 27.1371 17.287ZM21.2703 8.67317L26.0841 13.509V12.3001C26.0841 11.6956 26.5354 11.2422 26.9867 11.2422C28.7919 10.94 30.7475 11.0911 32.4023 11.8467C32.8536 12.1489 33.4553 12.3001 33.9066 12.6023C33.4553 10.94 32.4023 9.42877 31.1988 8.06868C29.9954 6.85972 28.491 5.80187 26.8363 5.19739C26.385 5.04627 26.0841 4.59291 26.0841 4.13955V3.8373L21.2703 8.67317Z" fill="#A09B87"/>
+            <path d="M8.63366 27.4121C8.33279 27.4121 8.03193 27.261 7.8815 27.1099L0.35988 19.5539C0.0590153 19.2516 -0.091417 18.7983 0.0590153 18.3449C0.209448 17.8915 0.660745 17.5893 1.11204 17.5893H3.36853C4.12069 15.927 5.17372 14.4158 6.52761 13.2068C8.93452 10.7889 12.244 9.27765 15.4031 9.27765C15.8544 9.27765 16.3057 9.57989 16.6066 10.0333C16.757 10.4866 16.6066 10.94 16.3057 11.2422C15.2527 12.1489 14.3501 13.2068 13.8988 14.2646C13.4475 15.3225 13.2971 16.3803 13.2971 17.4382H16.1553C16.6066 17.4382 17.0579 17.7404 17.2083 18.1938C17.3587 18.6471 17.3587 19.1005 16.9074 19.4027L9.38582 26.9588C9.23539 27.261 8.93452 27.4121 8.63366 27.4121ZM3.81982 19.8561L8.63366 24.692L13.4475 19.8561H12.244C11.6423 19.8561 11.191 19.4027 11.191 18.9494C10.8901 17.1359 11.0406 15.1714 11.7927 13.509C11.9432 13.0557 12.244 12.4512 12.5449 11.9978C10.8901 12.4512 9.38582 13.509 8.03193 14.718C6.82847 15.927 5.77544 17.4382 5.17371 19.1005C5.02328 19.5539 4.57199 19.8561 4.12069 19.8561H3.81982V19.8561Z" fill="#DF172D"/>
+            <path d="M30.4464 36.7816C30.4464 36.7816 30.296 36.7816 30.4464 36.7816C29.8447 36.7816 29.3934 36.4794 29.243 36.026C29.0925 35.5727 29.243 35.1193 29.5438 34.8171C30.5969 33.9104 31.4995 32.8525 31.9508 31.7947C32.4021 30.7368 32.5525 29.679 32.5525 28.6211H29.6943C29.243 28.6211 28.7917 28.3189 28.6412 27.8655C28.4908 27.4122 28.4908 26.9588 28.9421 26.6566L36.4637 19.1005C36.915 18.6472 37.6672 18.6472 38.1185 19.1005L45.6401 26.6566C45.941 26.9588 46.0914 27.4122 45.941 27.8655C45.7905 28.3189 45.3392 28.6211 44.8879 28.6211H42.481C41.7289 30.2835 40.6758 31.7947 39.3219 33.0036C36.915 35.2704 33.6055 36.7816 30.4464 36.7816ZM32.402 26.2032H33.6055C34.2072 26.2032 34.6585 26.6566 34.6585 27.1099C34.9594 28.9234 34.809 30.8879 34.0568 32.5503C33.7559 33.0036 33.6055 33.6081 33.3046 34.0615C34.9594 33.6081 36.4637 32.5503 37.8176 31.3413C39.0211 30.1323 40.0741 28.6211 40.6758 26.9588C40.8263 26.5054 41.2776 26.2032 41.7289 26.2032H42.0297L37.2159 21.3673L32.402 26.2032Z" fill="#DF172D"/>
+        </svg>
+                
+        <p class="advantagesBodyItemText">
+            возможен обмен
+            (trade in) на
+            <span style="color: #DF172D">НОВОЕ</span> оружие
+        </p>
+    </div>
+    <div class="advantagesBodyItem align-items-center justify-content-center">
+        <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M32.2001 5.75001L23.0001 3.45001L14.9501 5.75001L4.60019 13.8L3.4502 21.85L5.75019 33.35L14.9501 40.25L24.1501 42.55L34.5001 39.1L40.25 32.2L42.55 21.85L40.25 13.8L32.2001 5.75001Z" fill="#48403B"/>
+            <path d="M26.45 19.55L23 17.25L19.55 18.4L17.25 23L19.55 26.45L23 27.6L26.45 26.45L27.6 23L26.45 19.55Z" fill="#48403B"/>
+            <path d="M22.9244 43.7378C11.4621 43.7378 2.11133 34.3869 2.11133 22.9246C2.11133 11.4623 11.4621 2.11151 22.9244 2.11151C34.3866 2.11151 43.7374 11.4623 43.7374 22.9246C43.7374 34.3869 34.3866 43.7378 22.9244 43.7378ZM22.9244 4.52463C12.8195 4.52463 4.52444 12.8197 4.52444 22.9246C4.52444 33.0296 12.8195 41.3247 22.9244 41.3247C33.0293 41.3247 41.3243 33.0296 41.3243 22.9246C41.3243 12.8197 33.0293 4.52463 22.9244 4.52463Z" fill="#A09B87"/>
+            <path d="M22.9242 29.4099C19.3045 29.4099 16.439 26.5443 16.439 22.9246C16.439 19.305 19.3045 16.4394 22.9242 16.4394C26.5439 16.4394 29.4094 19.305 29.4094 22.9246C29.4094 26.5443 26.5439 29.4099 22.9242 29.4099ZM22.9242 18.7017C20.6619 18.7017 18.8521 20.5115 18.8521 22.9246C18.8521 25.1869 20.6619 26.9968 22.9242 26.9968C25.1865 26.9968 27.1471 25.1869 27.1471 22.9246C27.1471 20.6623 25.1865 18.7017 22.9242 18.7017Z" fill="#DF172D"/>
+            <path d="M24.1309 0H21.7178V8.89837H24.1309V0Z" fill="#A09B87"/>
+            <path d="M24.1309 37.1016H21.7178V46H24.1309V37.1016Z" fill="#A09B87"/>
+            <path d="M45.9999 21.7181H37.1016V24.1312H45.9999V21.7181Z" fill="#A09B87"/>
+            <path d="M8.89833 21.7181H0V24.1312H8.89833V21.7181Z" fill="#A09B87"/>
+        </svg>
+                
+        <p class="advantagesBodyItemText">
+            предпродажная
+            <span style="color: #DF172D">ПОДГОТОВКА</span>
+        </p>
+    </div>
+
+    <div class="advantagesBodyItem align-items-center justify-content-center">
+        <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M13.8002 2.30002L3.4502 6.90002V10.35L5.7502 23L11.5002 36.8L23.0002 44.85L29.9002 40.25L35.6502 34.5L39.1002 26.45L42.5502 13.8V6.90002L35.6502 3.45002L24.1502 1.15002L13.8002 2.30002Z" fill="#48403B"/>
+            <path d="M22.999 46L22.5356 45.8497C1.68391 37.8824 2.30174 8.4183 2.30174 7.21569V6.61438L3.07402 6.1634C8.94338 2.10458 15.8939 0 22.999 0C30.104 0 37.0545 2.10458 42.9239 6.1634L43.6962 6.61438V7.21569C43.6962 8.4183 44.4685 37.8824 23.4623 45.8497L22.999 46ZM4.61859 7.81699C4.61859 11.8758 5.54533 36.5294 22.999 43.5948C40.4526 36.5294 41.3793 11.8758 41.3793 7.81699C35.9733 4.20915 29.6406 2.2549 22.999 2.2549C16.3573 2.2549 10.0246 4.20915 4.61859 7.81699Z" fill="#A09B87"/>
+            <path d="M20.2182 27.2093L15.5845 22.6995L17.2835 21.1962L20.2182 24.0524L28.7133 15.6341L30.4123 17.2877L20.2182 27.2093Z" fill="#DF172D"/>
+        </svg>
+                
+                
+        <p class="advantagesBodyItemText">
+                в <span style="color: #DF172D">95%</span> случаев
+                выплата сразу
+                при обращении
+        </p>
+    </div>
+    <div class="advantagesBodyItem align-items-center justify-content-center">
+        <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M25.2999 1.15002L18.3999 2.30002L9.1999 8.05002L6.8999 16.1L8.0499 25.3L14.9499 32.2L22.9999 34.5L29.8999 33.35L35.6499 27.6L39.0999 21.85L40.2499 14.95L36.7999 9.20002L32.1999 4.60002L25.2999 1.15002Z" fill="#48403B"/>
+            <path d="M22.9999 23L17.2499 26.45V19.55L12.6499 14.95L19.5499 12.65L22.9999 6.90002L26.4499 12.65L33.3499 14.95L28.7499 19.55L29.8999 26.45L22.9999 23Z" fill="#48403B"/>
+            <path d="M36.7999 42.55L29.8999 33.35L36.7999 28.75L43.6999 37.95H39.0999L36.7999 42.55Z" fill="#DF172D"/>
+            <path d="M16.0998 34.5L10.3498 28.75L2.2998 37.95L6.8998 39.1L9.1998 42.55L16.0998 34.5Z" fill="#DF172D"/>
+            <path d="M37.2522 46L28.0522 33.58L36.7998 26.8333L45.9997 39.2533L39.3637 39.7133L37.2522 46ZM31.2194 34.04L36.6489 41.2466L38.0063 37.5666L41.9276 37.26L36.4981 30.0533L31.2194 34.04Z" fill="#A09B87"/>
+            <path d="M8.89833 46L6.63604 39.7133L0 39.2533L9.19997 26.8333L17.9475 33.58L8.89833 46ZM4.37376 37.26L8.29506 37.5666L9.65243 41.2466L15.0819 34.04L9.80325 30.0533L4.37376 37.26Z" fill="#A09B87"/>
+            <path d="M23.2264 35.88C13.4232 35.88 5.58057 27.7533 5.58057 17.94C5.58057 8.12667 13.4232 0 23.2264 0C33.0297 0 40.8723 8.12667 40.8723 17.94C40.8723 27.9067 32.8788 35.88 23.2264 35.88ZM23.2264 2.3C14.7805 2.3 7.84285 9.35333 7.84285 17.94C7.84285 26.5267 14.7805 33.58 23.2264 33.58C31.6723 33.58 38.61 26.5267 38.61 17.94C38.61 9.35333 31.6723 2.3 23.2264 2.3Z" fill="#A09B87"/>
+            <path d="M29.7111 28.2133C29.5603 28.2133 29.4095 28.2133 29.2587 28.0599L23.2259 24.8399L17.1931 28.0599C16.7407 28.2133 16.2882 28.2133 15.9866 27.9066C15.6849 27.5999 15.5341 27.2933 15.5341 26.8333L16.7407 20.0866L11.7636 15.3333C11.462 15.0266 11.3112 14.5666 11.462 14.1066C11.6128 13.6466 12.0653 13.3399 12.5177 13.3399L19.3046 12.4199L22.321 6.28661C22.6226 5.51994 23.98 5.51994 24.2816 6.28661L27.298 12.4199L34.0849 13.3399C34.5373 13.3399 34.839 13.6466 34.9898 14.1066C35.1406 14.5666 34.9898 15.0266 34.6881 15.3333L29.8619 20.0866L31.0685 26.8333C31.0685 27.2933 30.9177 27.7533 30.616 27.9066C30.1636 28.2133 30.0128 28.2133 29.7111 28.2133ZM23.2259 22.5399C23.3767 22.5399 23.5275 22.5399 23.6783 22.6933L28.2029 25.1466L27.4488 19.9333C27.4488 19.6266 27.4488 19.1666 27.7505 18.8599L31.3701 15.1799L26.2423 14.4133C25.9406 14.4133 25.4882 14.1066 25.3374 13.7999L23.0751 9.19994L20.8128 13.7999C20.662 14.1066 20.3603 14.4133 19.9079 14.4133L15.0817 15.3333L18.7013 19.0133C19.003 19.3199 19.1538 19.6266 19.003 20.0866L18.098 25.1466L22.6226 22.6933C22.7734 22.5399 23.0751 22.5399 23.2259 22.5399Z" fill="#DF172D"/>
+        </svg>
+                
+                
+        <p class="advantagesBodyItemText">
+                <span style="color: #DF172D">САМЫЙ</span> крупный
+            интернет-портал
+            по продаже
+            оружия в РФ
+        </p>
+
+</div>
+</div>
+
+<div class="bottomGridImage">
+    <img src="img/bottomImgAbGrid.svg" alt="">
+</div>
+
+
+<div class="bottomBlockAbout">
+    <h3>Допалнительный текстовой блок</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis sapiente ipsam, sunt eius esse perferendis quaerat? Animi, magnam tempora libero nam modi recusandae porro temporibus cupiditate, natus quae quisquam voluptates.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis sapiente ipsam, sunt eius esse perferendis quaerat? Animi, magnam tempora libero nam modi recusandae porro temporibus cupiditate, natus quae quisquam voluptates</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dicta rerum ducimus excepturi, ipsam nostrum possimus! Dolore cum harum tempore, expedita officia, laboriosam hic sunt, explicabo voluptate, in repudiandae voluptas.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis sapiente ipsam, sunt eius esse perferendis quaerat? Animi, magnam tempora libero nam modi recusandae porro temporibus cupiditate, natus quae quisquam voluptates</p>
+</div>
+
+                   
+
+
+
                 </section>
             </main>
-            
+             <script>
+
+$(document).ready(function(){
+    sliderAbout();
+});
+$(window).resize(function(){
+    sliderAbout();
+});
+
+    function sliderAbout(){
+                    if($(window).width() > 1200){
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    });
+        }
+else if($(window).width() < 1199 && $(window).width() > 768){
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    });
+}
+else{
+
+
+   var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+       pagination: {
+        el: '.swiper_pagination_about',
+        type: 'bullets',
+        clickable: true,
+       },
+       navigation: {
+        nextEl: '.arrowRight',
+        prevEl: '.arrowLeft',
+      },
+    }); 
+}
+}
+  </script>
             <?php include 'footer.php';?>
         </div>
     </div>
 
-	<!-- PLUGINS STYLE -->
-	<script type="text/javascript" src="js/plugin/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="js/plugin/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/plugin/mdb.min.js"></script>
-	<script type="text/javascript" src="js/plugin/popper.min.js"></script>
-	<script type="text/javascript" src="js/plugin/swiper.min.js"></script>
+    <!-- PLUGINS STYLE -->
+    <script type="text/javascript" src="js/plugin/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/plugin/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/plugin/mdb.min.js"></script>
+    <script type="text/javascript" src="js/plugin/popper.min.js"></script>
+
+    <script src="//api-maps.yandex.ru/2.0/?load=package.standard,package.geoObjects&lang=ru-RU" type="text/javascript"></script>
 
 
-	<script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
