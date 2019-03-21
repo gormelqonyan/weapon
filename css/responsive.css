@@ -198,6 +198,16 @@
     .productTitleRedLine{
         width: 100%;
     }
+
+    .productitem{
+        width: 234px;
+        margin: 15px 21px;
+    }
+
+    .productitem:nth-child(9),
+    .productitem:nth-child(10){
+        display: none;
+    }
     
 }
 
@@ -254,7 +264,7 @@
 
     .sale-title h1{
         font-size: 28px;
-        font-family: ventibold
+        font-family: ventimedium;
     }
 
     .sale-title h1:before{
@@ -425,7 +435,7 @@
     }
 
     .footerMenuItem li{
-        font-size: 1.6vmin;
+        font-size: 2vmin;
     }
 
     .footerNumber{
@@ -596,6 +606,14 @@
     }
 
 
+    .productitem:nth-child(7),
+    .productitem:nth-child(8),
+    .productitem:nth-child(9),
+    .productitem:nth-child(10){
+        display: none;
+    }
+
+
 }
 
 @media(max-width: 766px){
@@ -740,6 +758,17 @@
 
     .tabs-item{
         font-size: 2.6vmin;
+    }
+
+
+    .productitem:nth-child(4),
+    .productitem:nth-child(5),
+    .productitem:nth-child(6),
+    .productitem:nth-child(7),
+    .productitem:nth-child(8),
+    .productitem:nth-child(9),
+    .productitem:nth-child(10){
+        display: none;
     }
 
     

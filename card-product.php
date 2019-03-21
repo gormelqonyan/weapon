@@ -190,7 +190,7 @@
                                 <a class="button">Оставить заявку</a>
                             </div>
                             <div class="col-xl-6 order-0 order-xl-1">
-                                    <div class="sliderBox">
+                                    <div class="sliderBox slider_box_card_product">
                                         <img src="img/sliderPattern.svg" alt="pattern" class="sliderPattern">
                                         <div class="swiper-container gallery-top">
                                             <div class="swiper-pagination"></div>
@@ -205,15 +205,11 @@
                                                     <img src="img/weapon.png">
                                                 </div>
                                             </div> 
-                                            <!-- Add Arrows -->
-                                            <div class="nextBtn sliderBtn">
-                                                <img src="img/nextBtn.svg" alt="next">
-                                            </div>
-                                            <div class="prevBtn sliderBtn">
-                                                <img src="img/prev.svg" alt="prev">
-                                            </div>
+                                            
                                         </div>
-                                        <div class="swiper-container gallery-thumbs">
+
+                                        <div class="swiper-container gallery-thumbs slider_box_card_product_bottom">
+                                           
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide">
                                                     <img src="img/weapon.png">
@@ -226,6 +222,13 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <!-- Add Arrows -->
+                                            <div class="nextBtn rightBtnCard">
+                                                <img src="img/nextBtn.svg" alt="next">
+                                            </div>
+                                            <div class="prevBtn leftBtnCard">
+                                                <img src="img/prev.svg" alt="prev">
+                                            </div>
                                     </div>    
 
                                 </div>

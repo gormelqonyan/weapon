@@ -211,17 +211,17 @@
             </defs>
         </svg>
     </div>
-    <div class="big-container d-flex justify-content-around align-items-center">
+    <div class="big-container d-flex justify-content-between ustify-content-md-around align-items-center">
         <i class="fa fa-phone phone" aria-hidden="true"></i>
                 
         <a href="index.php">      
             <div class="logo">
-                <img src="img/logo.webp">	
+                <img src="img/logo.png">	
             </div>
         </a>
 
         <nav>
-            <div class="headerNumber text-right">+7 (812) 921-21-67</div>
+            <div class="headerNumber text-right">+7 (812) 746-95-00</div>
             <ul class="d-flex align-items-center">
                 <li class="text-center"><a href="weaponAbout.php">оружие<br>НАРЕЗНОЕ</a></li>
                 <li class="text-center">оружие<br>ГЛАДКОСТВОЛЬНОЕ</li>
@@ -234,7 +234,7 @@
         </nav>
 
         <div class="redLine"></div>
-        <div class="subHeaderNumber text-right">+7 (812) 921-21-67</div>
+        <div class="subHeaderNumber text-right">+7 (812) 746-95-00</div>
 
         <div class="menuBtn align-items-center">
             <div class="menu-icon">

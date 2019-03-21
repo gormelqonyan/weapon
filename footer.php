@@ -216,7 +216,7 @@
             <div class="col-lg-2">
                 <div class="d-flex align-items-center">
                     <div class="logo">
-                        <img src="img/logo.webp" alt="logo">
+                        <img src="img/logo.png" alt="logo">
                         <div class="footerlogoPattern">
                             <svg width="780" height="74" viewBox="0 0 780 74" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip18)">
@@ -327,7 +327,7 @@
 
                         
                     </div>
-                    <div class="logoNumber">+7 (812) 921-21-67</div>
+                    <div class="logoNumber">+7 (812) 746-95-00</div>
                 </div>
             </div>
             
@@ -345,13 +345,13 @@
                 
                 
             </div>
-            <img src="img/footerweapon.webp" alt="weapon" class="footerweapon">
+            <img src="img/footerweapon.png" alt="weapon" class="footerweapon">
         </div>
         <div class="d-flex justify-content-between align-items-sm-center align-items-start   flex-column flex-sm-row copriting">
             <div class="text-left footerCopiraiting text-uppercase">(c) Copyright — 2019</div>
             <div class="d-flex align-items-center justify-content-center flex-grow-1 footerNumber">
                 <div class="footerLineEffect1"></div>
-                <div >+7 (812) 921-21-67</div>
+                <div >+7 (812) 746-95-00</div>
                 <div class="footerLineEffect2"></div>
             </div>
             <div class="text-right footerCopiraiting">Разработка сайта - АртФактор</div>

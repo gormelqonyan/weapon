@@ -301,8 +301,8 @@
 
 	.sale .paralax3{
 		position: absolute;
-		right: -20%;
-    top: 25%;
+    right: -7%;
+    top: 20%;
     z-index: -3;
 	}
 
@@ -325,7 +325,7 @@
 	.sale .paralax6{
 		position: absolute;
 		bottom: 30%;
-    right: -40%;
+		right: -7%;
 	}
 
 	.sale .paralax7{

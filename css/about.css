@@ -4,29 +4,40 @@
 	height: 420px;
 	/*border:2px solid red;*/
 	position: relative;
+	width: 100%;
 }
 
 .aboutimgbottom{
 	position: absolute;
-	bottom: 90px;
-	right: -100px;
+	bottom: -16px;
+	right: 0;
 }
 .textAboutTop p{
-	font-family: HelveticaNeueCyr;
-font-size: 16px;
-line-height: 20px;
-letter-spacing: 1px;
+	font-family: helvetic;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 1px;
 }
 
-
+@media(min-width: 880px){
 .swiper-container{
-	/*max-width: 1521px;
-	margin: 0 200px;
-	overflow: hidden;*/
-	/*margin-left: 200px;*/
 	height: 376px !important;
 	margin-top: auto !important;
 	margin-bottom: auto !important;
+	/*max-width: 1240px !important;*/
+	max-width: 85vw;
+	overflow: hidden;
+}
+}
+@media(max-width: 879px){
+.swiper-container{
+	height: 376px !important;
+	margin-top: auto !important;
+	margin-bottom: auto !important;
+	/*max-width: 1240px !important;*/
+	max-width: 82vw;
+	overflow: hidden;
+}
 }
 .swiper-wrapper{
 	margin: 0 auto;
@@ -38,29 +49,39 @@ letter-spacing: 1px;
 	/*margin: 0 15px;*/
 }
 
+@media(min-width: 768px){
 .arrowLeft, .arrowRight{
 	position: absolute;
-	width: 20px;
-	height: 20px;
+	width: 50px;
+	height: 50px;
 	z-index: 100;
 	top: 126px;
+	outline: none;
 } 
+}
+@media(max-width: 767px){
+.arrowLeft, .arrowRight{
+	display: none;
+} 
+}
 .arrowLeft{
-	left: 30px;
+	left: 0;
 }
 
 .arrowRight{
-	right: 30px;
+	right: 0;
 }
 
 
 
 .textBottomAbout{
-	font-family: Venti CF;
+	font-family: ventilight;
 	font-size: 36px;
 	line-height: normal;
 	letter-spacing: 5px;
 	color: #F8F8F8;
+	position: relative;
+	z-index: 30;
 }
 
 
@@ -128,38 +149,37 @@ letter-spacing: 1px;
 	max-width: 1262px;
 	margin: 0 auto;
 	margin-top: -40px;
+	font-family: helvetic;
 }
 .bottomBlockAbout h3{
-	font-family: HelveticaNeueCyr;
 	font-size: 20px;
 	line-height: 25px;
 	letter-spacing: 1px;
-
 	color: #DF172D;
 }
 
 .bottomBlockAbout p{
 	margin-top: 44px;
-	font-family: HelveticaNeueCyr;
-font-size: 16px;
-line-height: 20px;
-letter-spacing: 1px;
-
-color: #A09B87;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	color: #A09B87;
 }
 
-@media(min-width: 700px){
+@media(min-width: 780px){
 	.swiper_pagination_about{
 		display: none;
 	}
 }
-@media(max-width: 699px){
+@media(max-width: 769px){
 	.swiper_pagination_about{
 		display: block;
-		margin: 0 auto;
+		/*margin: 0 auto;*/
+		margin-right: auto;
+		margin-left: 44px;
 		position: relative;
-		z-index: 300;
-		margin-top: -11px;
+		z-index: 3000 !important;
+		/*margin-top: -11px;*/
 		max-width: 100px;
 
 	}

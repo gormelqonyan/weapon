@@ -141,6 +141,11 @@ $(function(){
     $('.tabs-item').removeClass('active');
     $(this).addClass('active');
   })
+
+  $('.productAddBtn').on('click', function(){
+    $(this).css({'display': 'none'})
+    $('.productitem').css({'display': 'block'})
+  })
   
 
   var galleryThumbs = new Swiper('.gallery-thumbs', {

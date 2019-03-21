@@ -181,18 +181,20 @@
                         
   <div class="swiper-container">
 
-    <div class="arrowLeft"><img src="img/slideraboutleft.svg" alt=""></div>
-
     <div class="swiper-wrapper">
+        <div class="swiper-slide sliderElAbout" style="background: url('img/aboutslide1.jpg') center no-repeat;"></div>
+        <div class="swiper-slide sliderElAbout" style="background: url('img/aboutslide2.jpg') center no-repeat;"></div>
+        <div class="swiper-slide sliderElAbout" style="background: url('img/aboutslide3.jpg') center no-repeat;"></div>
         <div class="swiper-slide sliderElAbout" style="background: url('img/aboutslide1.jpg') center no-repeat;"></div>
         <div class="swiper-slide sliderElAbout" style="background: url('img/aboutslide2.jpg') center no-repeat;"></div>
         <div class="swiper-slide sliderElAbout" style="background: url('img/aboutslide3.jpg') center no-repeat;"></div>
    </div>
 
-<div class="arrowRight"><img src="img/slideraboutright.svg" alt=""></div>
-    <div class="swiper_pagination_about"></div>
-                           
+                          
 </div>
+<div class="swiper_pagination_about"></div> 
+<div class="arrowLeft"><img src="img/slideraboutleft.svg" alt=""></div>
+    <div class="arrowRight"><img src="img/slideraboutright.svg" alt=""></div>
     
  <img class="aboutimgbottom" src="img/about1.svg" alt="">
  </div>
@@ -323,12 +325,20 @@ $(window).resize(function(){
     var swiper = new Swiper('.swiper-container', {
       slidesPerView: 3,
       spaceBetween: 30,
+      navigation: {
+        nextEl: '.arrowRight',
+        prevEl: '.arrowLeft',
+      },
     });
         }
 else if($(window).width() < 1199 && $(window).width() > 768){
     var swiper = new Swiper('.swiper-container', {
       slidesPerView: 2,
       spaceBetween: 30,
+      navigation: {
+        nextEl: '.arrowRight',
+        prevEl: '.arrowLeft',
+      },
     });
 }
 else{
@@ -342,10 +352,6 @@ else{
         type: 'bullets',
         clickable: true,
        },
-       navigation: {
-        nextEl: '.arrowRight',
-        prevEl: '.arrowLeft',
-      },
     }); 
 }
 }
