@@ -276,7 +276,7 @@
 
     .sale-title h1{
         font-size: 28px;
-        font-family: ventimedium;
+        font-family: ventimedium, ventimediumIE;
     }
 
     .sale-title h1:before{

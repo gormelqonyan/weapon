@@ -152,7 +152,7 @@
 	font-size: 20px;
 	letter-spacing: 5px;
 	line-height: normal;
-	font-family: ventimedium; 
+	font-family: ventimedium, ventimediumIE; 
 }
 
 .sale-weapon .contact .phoneNumber{
@@ -161,7 +161,7 @@
 	line-height: normal;
 	font-size: 20px;
 	letter-spacing: 3px;
-	font-family: ventimedium; 
+	font-family: ventimedium, ventimediumIE; 
 	margin-top: 5px;
 }
 
@@ -186,7 +186,7 @@
 
 .sale-form h2{
 	color: #DF172D;
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	line-height: normal;
 	font-size: 20px;
 	letter-spacing: 5px;
@@ -407,7 +407,7 @@
 	width: 100%;
 	padding: 1rem;
 	background: transparent;
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	line-height: normal;
 	font-size: 16px;
 	text-align: center;
@@ -426,7 +426,7 @@
 
 .sale-form .input,
 .sale-form-modal .input{
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	line-height: normal;
 	font-size: 16px;
 	letter-spacing: 5px;
@@ -436,7 +436,7 @@
 .sale-form h5,
 .sale-form-modal h5{
 	margin-top: 10px;
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	line-height: normal;
 	font-size: 20px;
 	letter-spacing: 5px;
@@ -504,7 +504,7 @@
 	top: 373px;
 	left: 633px;
 	width: 554px;
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 20px;
 	line-height: normal;
 	letter-spacing: 5px;
@@ -520,7 +520,7 @@
 
 .aboutSaleTitle{
 	position: relative;
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	line-height: normal;
 	font-size: 40px;
 	letter-spacing: 12px;
@@ -822,7 +822,7 @@
 }
 
 .howSale h2{
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	line-height: normal;
 	font-size: 40px;
 	letter-spacing: 12px;
@@ -915,7 +915,7 @@
 
 .advantagesBodyItemText{
 	width: 191px;
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 20px;
 	line-height: 22px;
 	letter-spacing: 2px;
@@ -1029,7 +1029,7 @@ PRODUCT STYLE
 }
 
 .producTitemRequest{
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 16px;
 	line-height: normal;
 	letter-spacing: 2px;
@@ -1041,7 +1041,7 @@ PRODUCT STYLE
 }
 
 .productItemPrice{
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 30px;
 	line-height: normal;
 	letter-spacing: 3px;
@@ -1092,7 +1092,7 @@ PRODUCT STYLE
 }
 
 .productFooter h5{
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 20px;
 	line-height: 22px;
 	letter-spacing: 1px;
@@ -1101,7 +1101,7 @@ PRODUCT STYLE
 
 .productFooter p{
 	width: 504px;
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 16px;
 	line-height: 20px;
 	letter-spacing: 1px;
@@ -1116,7 +1116,7 @@ PRODUCT STYLE
 	padding: 15px;
 	width: 344px;
 	color: #E6E1CE;
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 16px;
 	letter-spacing: 5px;
 	text-transform: uppercase;
@@ -1143,7 +1143,7 @@ PRODUCT STYLE
 }
 
 .rewievTitle{
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 40px;
 	line-height: normal;
 	letter-spacing: 12px;
@@ -1179,7 +1179,7 @@ PRODUCT STYLE
 
 .rewievItemTitle{
 	margin: 0;
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 20px;
 	line-height: normal;
 	letter-spacing: 1px;
@@ -1222,7 +1222,7 @@ SEO SECTION STYLE
 
 }
 .seoContentTitle{
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 20px;
 	line-height: 25px;
 	letter-spacing: 1px;
@@ -1264,7 +1264,7 @@ SEO SECTION STYLE
 
 
 .contactTitle{
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 40px;
 	line-height: normal;
 	letter-spacing: 12px;
@@ -1288,13 +1288,13 @@ SEO SECTION STYLE
 
 .location{
 	width: 256px;
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	line-height: 20px;
 	letter-spacing: 1px;
 }
 
 .number{
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 20px;
 	line-height: normal;
 	letter-spacing: 5px;
@@ -1302,7 +1302,7 @@ SEO SECTION STYLE
 }
 
 .contactFormTitle{
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 20px;
 	line-height: normal;
 	letter-spacing: 5px;
@@ -1319,7 +1319,7 @@ SEO SECTION STYLE
 	width: 100%;
 	padding: 1rem;
 	background: transparent;
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	line-height: normal;
 	font-size: 16px;
 	text-align: center;

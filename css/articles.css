@@ -10,7 +10,7 @@
 
 .breadCrumb ol li{
     list-style: none;
-    font-family: ventimedium;
+    font-family: ventimedium, ventimediumIE;
     font-size: 16px;
     line-height: normal;
     letter-spacing: 2px;
@@ -47,7 +47,7 @@
 
 
 .contactTitle{
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 36px;
     line-height: normal;
     letter-spacing: 5px;

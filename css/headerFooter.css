@@ -9,6 +9,11 @@
 }
 
 @font-face{
+	src: url(../fonts/VentiCF-Medium.eot);
+	font-family: ventimediumIE;
+}
+
+@font-face{
 	src: url(../fonts/VentiCF-Medium.ttf);
 	font-family: ventimedium;
 }
@@ -177,7 +182,7 @@
   .subMenu ul li{
       list-style: none;
       text-align: right;
-      font-family: ventimedium;
+      font-family: ventimedium, ventimediumIE;
       margin-bottom: 40px;
       font-size: 16px;
       line-height: normal;
@@ -227,7 +232,7 @@
   }
   
   .subMenu .Number{
-      font-family: ventimedium;
+      font-family: ventimedium, ventimediumIE;
       font-size: 20px;
       line-height: normal;
       letter-spacing: 3px;
@@ -267,7 +272,7 @@
       background:#191919;
       color: #E6E1CE;
       font-weight: 500;
-      font-family: ventimedium;
+      font-family: ventimedium, ventimediumIE;
       overflow-x: hidden;
   }
   
@@ -306,7 +311,7 @@
   }
 
   .headerBotomLine .headerBotomLineText{
-    font-family: ventimedium;
+    font-family: ventimedium, ventimediumIE;
     font-size: 13px;
     line-height: normal;
     text-align: center;
@@ -340,7 +345,7 @@
       cursor: pointer;
       transition: 0.2s;
       line-height: normal;
-      font-family: ventimedium;
+      font-family: ventimedium, ventimediumIE;
   }
 
   nav ul li a{
@@ -380,7 +385,7 @@
   }
 
   .headerNumber{
-    font-family: ventimedium;
+    font-family: ventimedium, ventimediumIE;
     font-size: 20px;
     line-height: normal;
     letter-spacing: 3px;
@@ -395,7 +400,7 @@
 
   .subHeaderNumber{
     display: none;
-    font-family: ventimedium;
+    font-family: ventimedium, ventimediumIE;
     font-size: 18px;
     line-height: normal;
     letter-spacing: 3px;
@@ -436,7 +441,7 @@ FOOTER STYLING
 
 .footerMenuItem li{
 	list-style: none;
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 16px;
 	line-height: normal;
 	letter-spacing: 2px;
@@ -464,7 +469,7 @@ FOOTER STYLING
 }
 
 .copriting{
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 16px;
 	line-height: normal;
 	text-align: right;
@@ -493,7 +498,7 @@ FOOTER STYLING
 
 .logoNumber{
 	display: none;
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 20px;
 	line-height: normal;
 	letter-spacing: 3px;

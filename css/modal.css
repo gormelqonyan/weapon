@@ -1,6 +1,6 @@
 .sale-form .input,
 .sale-form-modal .input{
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	line-height: normal;
 	font-size: 16px;
 	letter-spacing: 5px;
@@ -10,7 +10,7 @@
 .sale-form h5,
 .sale-form-modal h5{
 	margin-top: 10px;
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	line-height: normal;
 	font-size: 20px;
 	letter-spacing: 5px;
@@ -78,7 +78,7 @@
 	top: 373px;
 	left: 633px;
 	width: 554px;
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 20px;
 	line-height: normal;
 	letter-spacing: 5px;

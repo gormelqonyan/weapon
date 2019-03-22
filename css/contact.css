@@ -21,7 +21,7 @@
 
 .breadCrumb ol li{
     list-style: none;
-    font-family: ventimedium;
+    font-family: ventimedium, ventimediumIE;
     font-size: 16px;
     line-height: normal;
     letter-spacing: 2px;
@@ -148,13 +148,13 @@
 
 .location{
 	width: 256px;
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	line-height: 20px;
 	letter-spacing: 1px;
 }
 
 .number{
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 20px;
 	line-height: normal;
 	letter-spacing: 5px;
@@ -162,7 +162,7 @@
 }
 
 .contactFormTitle{
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 20px;
 	line-height: normal;
 	letter-spacing: 5px;
@@ -179,7 +179,7 @@
 	width: 100%;
 	padding: 1rem;
 	background: transparent;
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	line-height: normal;
 	font-size: 16px;
 	text-align: center;
@@ -312,7 +312,7 @@
 }
 
 .articleItemDate{
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 20px;
 	line-height: normal;
 	letter-spacing: 5px;
@@ -324,7 +324,7 @@
 .articleItemButton{
 	width: 358px;
 	height: 55px;
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 16px;
 	line-height: normal;
 	text-align: center;
@@ -415,7 +415,7 @@
 
 .weapon-form h2{
 	color: #DF172D;
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	line-height: normal;
 	font-size: 20px;
 	letter-spacing: 5px;
@@ -490,7 +490,7 @@ border-bottom: 1px solid #DF172D;
 	width: 100%;
 	padding: 1rem;
 	background: transparent;
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	line-height: normal;
 	font-size: 16px;
 	text-align: center;
@@ -508,7 +508,7 @@ border-bottom: 1px solid #DF172D;
 
 .weapon-form h5{
 	margin-top: 10px;
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	line-height: normal;
 	font-size: 20px;
 	letter-spacing: 5px;
@@ -583,7 +583,7 @@ border-bottom: 1px solid #DF172D;
 }
 
 .producTitemRequest{
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 16px;
 	line-height: normal;
 	letter-spacing: 2px;
@@ -595,7 +595,7 @@ border-bottom: 1px solid #DF172D;
 }
 
 .productItemPrice{
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 30px;
 	line-height: normal;
 	letter-spacing: 3px;
@@ -669,7 +669,7 @@ border-bottom: 1px solid #DF172D;
     padding: 15px;
     width: 344px;
     color: #E6E1CE;
-    font-family: ventimedium;
+    font-family: ventimedium, ventimediumIE;
     font-size: 16px;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -702,7 +702,7 @@ border-bottom: 1px solid #DF172D;
 }
 
 .price{
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 30px;
 	line-height: normal;
 	text-align: right;
@@ -715,7 +715,7 @@ border-bottom: 1px solid #DF172D;
 }
 
 .productAboutText{
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 20px;
 	line-height: normal;
 	text-align: right;
@@ -732,7 +732,7 @@ border-bottom: 1px solid #DF172D;
 	width: 100%;
 	padding: 1rem;
 	background: transparent;
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	line-height: normal;
 	font-size: 16px;
 	text-align: center;
@@ -773,7 +773,7 @@ border-bottom: 1px solid #DF172D;
 }
 
 .tabs-item{
-	font-family: ventimedium ;
+	font-family: ventimedium, ventimediumIE ;
 	font-size: 16px;
 	line-height: normal;
 	text-align: center;
@@ -821,7 +821,7 @@ border-bottom: 1px solid #DF172D;
 }
 
 .specificationsText{
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 20px;
 	line-height: normal;
 	text-align: right;
@@ -904,7 +904,7 @@ border-bottom: 1px solid #DF172D;
 }
 
 .productItemPrice{
-	font-family: ventimedium;
+	font-family: ventimedium, ventimediumIE;
 	font-size: 30px;
 	line-height: normal;
 	letter-spacing: 3px;
