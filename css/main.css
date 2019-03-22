@@ -512,6 +512,17 @@
 	transform: rotate(90deg)
 }
 
+.saleNumber{
+	display: none;
+	font-size: 20px;
+	line-height: normal;
+	text-align: right;
+	letter-spacing: 3px;
+	font-family: ventimedium, ventimediumIE;
+	color: #E6E1CE;
+	margin-top: 5px;
+}
+
 /*aboutSale section style*/
 
 .aboutSale .big-container{
@@ -624,6 +635,7 @@
 	position: absolute;
 	top: 0;
 	right: -150px;
+	color: #f8f8f8;
 }
 
 .aboutsSaleAnimationItem1 .aboutsSaleAnimationItemPaternImg{
@@ -661,6 +673,7 @@
 	position: absolute;
 	bottom: -150px;
 	right: 150px;
+	color: #f8f8f8;
 }
 
 .aboutsSaleAnimationItem2 .aboutsSaleAnimationItemNumber{
@@ -703,6 +716,7 @@
 	position: absolute;
 	top: -40px;
 	right: -100px;
+	color: #f8f8f8;
 }
 
 .aboutsSaleAnimationItem3 .aboutsSaleAnimationItemPaternImg{
@@ -748,6 +762,7 @@
 	position: absolute;
 	bottom: -200px;
 	right: 0px;
+	color: #f8f8f8;
 }
 
 .aboutsSaleAnimationItem4 .aboutsSaleAnimationItemPaternImg{

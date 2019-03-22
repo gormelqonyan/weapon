@@ -73,7 +73,7 @@
                 </div>
                 <section class="contact">
                     <div class="big-container">
-                        <h2 class="contactTitle">
+                        <h1 class="contactTitle">
                             <div>О нас</div>
                             
                             <div class="contactTitlePatternX">
@@ -167,7 +167,7 @@
 
                             
                             
-                        </h2>
+                        </h1>
                         
                      
 
@@ -201,7 +201,7 @@
  <img class="aboutimgbottom" src="img/about1.svg" alt="">
  </div>
 
-<p class="textBottomAbout">Наши приемущества</p>
+<h2 class="textBottomAbout">Наши приемущества</h2>
 <div class="lineAbout">
     <img src="img/lineAbout.svg" alt="">
 </div>
@@ -302,7 +302,7 @@
 
 
 <div class="bottomBlockAbout">
-    <h3>Допалнительный текстовой блок</h3>
+    <h2>Допалнительный текстовой блок</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis sapiente ipsam, sunt eius esse perferendis quaerat? Animi, magnam tempora libero nam modi recusandae porro temporibus cupiditate, natus quae quisquam voluptates.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis sapiente ipsam, sunt eius esse perferendis quaerat? Animi, magnam tempora libero nam modi recusandae porro temporibus cupiditate, natus quae quisquam voluptates</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dicta rerum ducimus excepturi, ipsam nostrum possimus! Dolore cum harum tempore, expedita officia, laboriosam hic sunt, explicabo voluptate, in repudiandae voluptas.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis sapiente ipsam, sunt eius esse perferendis quaerat? Animi, magnam tempora libero nam modi recusandae porro temporibus cupiditate, natus quae quisquam voluptates</p>
 </div>

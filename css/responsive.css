@@ -555,6 +555,10 @@
     .weaponImgBody{
         display: none;
     }
+    .saleNumber{
+        display: block;
+        text-align: right;
+    }
 
     
 }
