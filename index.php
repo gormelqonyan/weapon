@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
 	<title>русский оружейный ломбард</title>
 	<meta charset="UTF-8">
@@ -74,11 +74,10 @@
 				
 				<div class="sale-weapon">
 					<div class="animateTitleText">
-						<h1 >русский<br><span class="nowrapText">оружейный ломбард</span></span></h1>
+						<h1 >русский<br><span class="nowrapText">оружейный ломбард</span></h1>
 					</div>
 					<div class="contact">
-						<p class="email">INFO@ROLSPB.RU</p>
-						<p class="phoneNumber">+7 (812) 746-95-00</p>
+						<a class="email" href="mailto: INFO@ROLSPB.RU">INFO@ROLSPB.RU</a>
 					</div>
 				</div>
 				</div> 
@@ -110,7 +109,7 @@
 					
 					<div class="sale-body-patern">
 						<svg width="270"  viewBox="0 0 270 452" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<g clip-path="url(#clip0)">
+							<g clip-path="url(#clip59)">
 							<path d="M359 38.5809L349.909 47.3333L242.412 150.822L208.883 183.102L104.078 284H106.26L209.974 184.152L243.503 151.873L351 48.3136L359 40.6114V38.5809Z" fill="#0C0C0C"/>
 							<path d="M359 174.349L349.909 183.102L316.38 215.381L245.176 284H247.358L351 184.152L359 176.45V174.349Z" fill="#0C0C0C"/>
 							<path d="M260.159 0H257.977L208.883 47.3333L101.387 150.822L67.7852 183.102L0 248.36V250.461L68.8762 184.152L102.405 151.873L176.373 80.6627L209.974 48.3136L243.503 16.0345L260.159 0Z" fill="#0C0C0C"/>
@@ -199,7 +198,7 @@
 							<path d="M0 557.077V559.177L48.1479 512.824L81.7496 480.475L115.279 448.196L189.246 376.986L222.775 344.707L256.377 312.358L285.833 284H283.651L221.684 343.657L114.188 447.146L80.6586 479.495L0 557.077Z" fill="#0C0C0C"/>
 							</g>
 							<defs>
-							<clipPath id="clip0">
+							<clipPath id="clip59">
 							<rect width="270" height="452" fill="white"/>
 							</clipPath>
 							</defs>
@@ -667,32 +666,32 @@
 							</div>
 
 							<div class="md-form">
-								<input type="text" id="form1" class="form-control">
-								<label for="form1">Модель</label>
+								<input type="text" id="form11" class="form-control">
+								<label for="form11">Модель</label>
 							</div>
 
 							<div class="md-form">
-								<input type="text" id="form2" class="form-control">
-								<label for="form2">Калибр</label>
+								<input type="text" id="form22" class="form-control">
+								<label for="form22">Калибр</label>
 							</div>
 
 							<div class="sale-form-modal-RedLine"></div>
 
 							<div class="md-form">
-								<input type="text" id="form3" class="form-control">
-								<label for="form3">Ф.И.О</label>
+								<input type="text" id="form33" class="form-control">
+								<label for="form33">Ф.И.О</label>
 							</div>
 							<div class="md-form">
-								<input type="text" id="form4" class="form-control">
-								<label for="form4">ТЕЛЕФОН</label>
+								<input type="text" id="form44" class="form-control">
+								<label for="form44">ТЕЛЕФОН</label>
 							</div>
 							<div class="md-form">
-								<input type="text" id="form5" class="form-control">
-								<label for="form5">E-MAIL</label>
+								<input type="text" id="form55" class="form-control">
+								<label for="form55">E-MAIL</label>
 							</div>
 							<div class="md-form">
-								<input type="text" id="form6" class="form-control">
-								<label for="form6">КОММЕНТАРИЙ</label>
+								<input type="text" id="form66" class="form-control">
+								<label for="form66">КОММЕНТАРИЙ</label>
 							</div>
 
 							<button class="saleWeaponBtn2">Продать оружие</button>
@@ -938,7 +937,7 @@
 
 							<div class="aboutsSaleAnimationItemPatternX animateText">
 								<svg width="267" height="120" viewBox="0 0 267 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<g clip-path="url(#clip0)">
+									<g clip-path="url(#clip68)">
 									<path d="M130.07 38.3973L139.545 28.9239L149.203 38.5809L151.59 36.1942L141.932 26.5372L151.406 17.0637L149.056 14.677L139.545 24.1872L130.217 14.8606L127.867 17.2106L137.194 26.5372L127.683 36.0473L130.07 38.3973Z" fill="#48403B" fill-opacity="0.3"/>
 									<path d="M130.07 90.4647L139.545 80.9545L149.203 90.6115L151.59 88.2248L141.932 78.6045L151.406 69.0943L149.056 66.7443L139.545 76.2177L130.217 66.8912L127.867 69.2779L137.194 78.6045L127.683 88.0779L130.07 90.4647Z" fill="#48403B" fill-opacity="0.3"/>
 									<path d="M78.0335 38.3973L87.5081 28.9239L97.1663 38.5809L99.5166 36.1942L89.8951 26.5372L99.3697 17.0637L96.9827 14.677L87.5081 24.1872L78.1804 14.8606L75.7934 17.2106L85.1211 26.5372L75.6465 36.0473L78.0335 38.3973Z" fill="#48403B" fill-opacity="0.3"/>
@@ -956,7 +955,7 @@
 									<path d="M47.3325 121.162L44.9455 118.775L35.471 128.285L26.1433 118.958L23.7563 121.308L33.0839 130.635L23.6094 140.145L25.9597 142.495L35.471 133.022L45.1291 142.679L47.4794 140.292L37.8212 130.635L47.3325 121.162Z" fill="#48403B" fill-opacity="0.3"/>
 									</g>
 									<defs>
-									<clipPath id="clip0">
+									<clipPath id="clip68">
 									<rect width="266.317" height="118.845" fill="white" transform="translate(0.510742 0.24646)"/>
 									</clipPath>
 									</defs>
@@ -971,7 +970,7 @@
 							</div>
 
 							<div class="aboutsSaleAnimationItemSvg">
-								<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								<svg version="1.1" id="Layer_22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 								viewBox="0 0 149 75" style="enable-background:new 0 0 149 75;" xml:space="preserve">
 									<path class="draw-arrow draw-arrow2" d="M0,0.8c0,0,12.8,27.9,50,29.2s82.6-3.8,90.2,34" />
 									<line class="draw-arrow draw-arrow2 tal1" x1="140.6" y1="64.2" x2="133" y2="59.4"/>
@@ -1076,7 +1075,7 @@
 							</div>
 
 							<div class="aboutsSaleAnimationItemSvg">
-								<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								<svg version="1.1" id="Layer_9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 								viewBox="0 0 204 116" style="enable-background:new 0 0 204 116;" xml:space="preserve">
 								<path class="draw-arrow draw-arrow3" d="M4.8,115.8c0,0,16.5-50.8,89.3-61.8s83.5-12,93.5-21.8c0,0,10.8-9.6,11.6-25.6"/>
 								<line class="draw-arrow draw-arrow3 tal1" x1="199.1" y1="7" x2="192.2" y2="11.8"/>
@@ -1141,7 +1140,7 @@
 							</div>
 							<div class="aboutsSaleAnimationItemPaternImg animateText">
 								<svg width="209" height="110" viewBox="0 0 209 110" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<g clip-path="url(#clip0)">
+									<g clip-path="url(#clip81)">
 									<path d="M312.248 33.4874L304.361 41.08L211.11 130.855L182.024 158.857L91.1074 246.384H93.0002L182.971 159.768L212.056 131.766L305.308 41.9304L312.248 35.2489V33.4874Z" fill="#48403B" fill-opacity="0.3"/>
 									<path d="M226.504 0.019165H224.612L182.024 41.08L88.7727 130.855L59.6238 158.857L0.821289 215.467V217.289L60.5702 159.768L89.656 131.766L153.821 69.9927L182.97 41.9304L212.056 13.9288L226.504 0.019165Z" fill="#48403B" fill-opacity="0.3"/>
 									<path d="M189.785 228.101L283.036 138.326L312.185 110.325L312.248 110.203V108.381L311.238 109.413L282.089 137.415L253.004 165.417L188.838 227.19L168.964 246.384H170.857L189.785 228.101Z" fill="#48403B" fill-opacity="0.3"/>
@@ -1183,7 +1182,7 @@
 									<path d="M0.821289 236.909V238.731L42.5887 198.52L71.7376 170.458L100.823 142.457L164.989 80.6831L194.075 52.6815L223.224 24.6192L248.776 0.019165H246.883L193.128 51.7704L99.877 141.545L70.7912 169.608L0.821289 236.909Z" fill="#48403B" fill-opacity="0.3"/>
 									</g>
 									<defs>
-									<clipPath id="clip0">
+									<clipPath id="clip81">
 									<rect width="207.328" height="109.303" fill="white" transform="translate(0.821289 0.019165)"/>
 									</clipPath>
 									</defs>
@@ -1191,7 +1190,7 @@
 										
 							</div>
 							<div class="aboutsSaleAnimationItemSvg">
-								<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								<svg version="1.1" id="Layer_10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 									viewBox="0 0 145.5 69" style="enable-background:new 0 0 145.5 69;" xml:space="preserve">
 								<path class="draw-arrow draw-arrow4" d="M0.5,42.3C14.1,64.1,25,68.7,32.8,68.5C61.3,67.8,73.5,1.1,105,0.8c18.6-0.2,34.2,11,34.3,11
 									c2.5,1.8,4.5,3.5,5.8,4.8"/>
@@ -1213,7 +1212,7 @@
 							
 							<div class="aboutsSaleAnimationItemPatternX animateText">
 								<svg width="267" height="120" viewBox="0 0 267 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<g clip-path="url(#clip0)">
+									<g clip-path="url(#clip84)">
 									<path d="M130.07 38.3973L139.545 28.9239L149.203 38.5809L151.59 36.1942L141.932 26.5372L151.406 17.0637L149.056 14.677L139.545 24.1872L130.217 14.8606L127.867 17.2106L137.194 26.5372L127.683 36.0473L130.07 38.3973Z" fill="#48403B" fill-opacity="0.3"/>
 									<path d="M130.07 90.4647L139.545 80.9545L149.203 90.6115L151.59 88.2248L141.932 78.6045L151.406 69.0943L149.056 66.7443L139.545 76.2177L130.217 66.8912L127.867 69.2779L137.194 78.6045L127.683 88.0779L130.07 90.4647Z" fill="#48403B" fill-opacity="0.3"/>
 									<path d="M78.0335 38.3973L87.5081 28.9239L97.1663 38.5809L99.5166 36.1942L89.8951 26.5372L99.3697 17.0637L96.9827 14.677L87.5081 24.1872L78.1804 14.8606L75.7934 17.2106L85.1211 26.5372L75.6465 36.0473L78.0335 38.3973Z" fill="#48403B" fill-opacity="0.3"/>
@@ -1231,7 +1230,7 @@
 									<path d="M47.3325 121.162L44.9455 118.775L35.471 128.285L26.1433 118.958L23.7563 121.308L33.0839 130.635L23.6094 140.145L25.9597 142.495L35.471 133.022L45.1291 142.679L47.4794 140.292L37.8212 130.635L47.3325 121.162Z" fill="#48403B" fill-opacity="0.3"/>
 									</g>
 									<defs>
-									<clipPath id="clip0">
+									<clipPath id="clip84">
 									<rect width="266.317" height="118.845" fill="white" transform="translate(0.510742 0.24646)"/>
 									</clipPath>
 									</defs>
@@ -1311,7 +1310,7 @@
 					</div>
 				</div>
 
-				
+			</div>
 		</section>
 
 		<section class="howSale">
@@ -1482,7 +1481,7 @@
 			<div class="big-container">
 				<div class="d-flex justify-content-end">
 					<div class="advantages-content">
-						<img src="img/weapon.webp" alt="weapon" class="advantages-weapon">
+						<img src="img/weapon2.jpg" alt="weapon" class="advantages-weapon">
 						<h2 class="advantagesTitel text-center">
 							<div class="animateTitleText"><span class="nowrapText">Наши приемущества</span></div>
 							<div class="weaponTitlePatern">
@@ -2037,7 +2036,7 @@
 						<span>Показать еще</span>
 								
 					</button>
-					<h5>Наличие и цену товара уточняйте по телефону <span style="color: #DF172D">(812) 490-25-78</span></h5>
+					<h5>Наличие и цену товара уточняйте по телефону</h5>
 					<p>
 						Комплектация товара может не соответствовать указанной
 						из-за изменений внесенных поставщиком товара.
@@ -2805,7 +2804,7 @@
 					<div class="col-md-6 col-lg-4">
 						<div class="contactForm">
 							<p class="location">192007, г.Санкт-Петербург, ул. Тамбовская д.11А пом. 1Н</p>
-							<p class="number">+7 (812) 921-21-67</p>
+							<a class="number" href="tel: +78129212167">+7 (812) 746-95-00</a>
 							<p class="contactFormTitle">НАПИШИТЕ НАМ</p>
 
 							<form>

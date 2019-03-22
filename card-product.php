@@ -28,12 +28,14 @@
         <div class="d-flex flex-column">
             <?php include 'header.php';?>
             <main>
-                <div class="breadCrumb">
-                    <ol class="d-flex">
-                        <li><a href="index.html">Главная</a></li>
-                        <li><a href="#">Каталог</a></li>
-                        <li><a href="#"></a>Нарезное оружие</a></li>
-                    </ol>
+                <div class="big-container">
+                    <div class="breadCrumb">
+                        <ol class="d-flex">
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="#">Каталог</a></li>
+                            <li><a href="#"></a>Нарезное оружие</a></li>
+                        </ol>
+                    </div>
                 </div>
                 <div class="sectionPatternX">
                     <svg width="557" height="123" viewBox="0 0 557 123" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -187,7 +189,7 @@
                                         10 ТК
                                     </div>
                                 </div>
-                                <a class="button">Оставить заявку</a>
+                                <a class="button cardBtn">Оставить заявку</a>
                             </div>
                             <div class="col-xl-6 order-0 order-xl-1">
                                     <div class="sliderBox slider_box_card_product">

@@ -27,12 +27,14 @@
         <div class="d-flex flex-column">
             <?php include 'header.php';?>
             <main>
-                <div class="breadCrumb">
-                    <ol class="d-flex">
-                        <li><a href="index.html">Главная</a></li>
-                        <li><a href="#">Каталог</a></li>
-                        <li><a href="#"></a>Нарезное оружие</a></li>
-                    </ol>
+                <div class="big-container">
+                    <div class="breadCrumb">
+                        <ol class="d-flex">
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="#">Каталог</a></li>
+                            <li><a href="#"></a>Нарезное оружие</a></li>
+                        </ol>
+                    </div>
                 </div>
                 <div class="sectionPatternX">
                     <svg width="557" height="123" viewBox="0 0 557 123" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -795,7 +797,7 @@
 
                 <section class="product">
                     <div class="big-container">
-                        <h2 class="productTitle">Также у нас вы можете приобрести - нарезное оружие</h2>
+                        <h2 class="productTitle" style="text-align: left">Также у нас вы можете приобрести - нарезное оружие</h2>
                         <div class="productTitleRedLine"></div>
 
                         <div class="productBody d-flex justify-content-center flex-wrap">
@@ -1050,7 +1052,7 @@
 
                         </button>
 
-                        <h4 class="priceNumber">Наличие и цену товара уточняйте по телефону <span style="color: #DF172D"> (812) 490-25-78 </span></h4>
+                        <h4 class="priceNumber">Наличие и цену товара уточняйте по телефону <a style="color: #DF172D" href="tel: 8124902578"> (812) 490-25-78 </a></h4>
                         <p class="priceText">
                             Комплектация товара может не соответствовать указанной из-за изменений внесенных поставщиком товара.
                         </p>

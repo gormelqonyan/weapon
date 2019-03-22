@@ -212,7 +212,7 @@
         </svg>
     </div>
     <div class="big-container d-flex justify-content-between ustify-content-md-around align-items-center">
-        <i class="fa fa-phone phone" aria-hidden="true"></i>
+        <a href="tel: +78129212167"><img src="img/headerPhone.svg" class="phone" alt="phone"></a>
                 
         <a href="index.php">      
             <div class="logo">
@@ -373,10 +373,10 @@
                 <li>ГЛАДКОСТВОЛЬНОЕ оружие</li>
                 <li>ГАЗОВОЕ оружие</li>
                 <li>ВСЕ ОБ ОРУЖИИ</li>
-                <li>О НАС</li>
+                <li><a href="about.php">О НАС</a></li>
                 <li><a href="contact.php">КОНТАКТЫ</a></li>
                 <li><div class="subMenuRedLine"></div></li>
-                <li class="Number">+7 (812) 921-21-67</li>
+                <li class="Number">+7 (812) 746-95-00</li>
             </ul>
         </div>
 

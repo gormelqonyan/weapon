@@ -81,7 +81,7 @@
 	letter-spacing: 5px;
 	color: #F8F8F8;
 	position: relative;
-	z-index: 30;
+	z-index: 10;
 }
 
 
@@ -134,7 +134,7 @@
 .cardsAbout{
 	width: 100%;
 	position: relative;
-	z-index: 100;
+	z-index: 10;
 }
 .cardsAbout div{
 	display: flex;

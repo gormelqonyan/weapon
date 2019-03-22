@@ -327,7 +327,7 @@
 
                         
                     </div>
-                    <div class="logoNumber">+7 (812) 746-95-00</div>
+                    <a class="logoNumber" href="tel: +78127469500">+7 (812) 746-95-00</a>
                 </div>
             </div>
             

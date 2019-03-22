@@ -27,12 +27,14 @@
         <div class="d-flex flex-column">
             <?php include 'header.php';?>
             <main>
-                <div class="breadCrumb">
-                    <ol class="d-flex">
-                        <li><a href="index.html">Главная</a></li>
-                        <li><a href="#">Каталог</a></li>
-                        <li><a href="#"></a>Нарезное оружие</a></li>
-                    </ol>
+                <div class="big-container">
+                    <div class="breadCrumb">
+                        <ol class="d-flex">
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="#">Каталог</a></li>
+                            <li><a href="#"></a>Нарезное оружие</a></li>
+                        </ol>
+                    </div>
                 </div>
                 <div class="sectionPatternX">
                     <svg width="557" height="123" viewBox="0 0 557 123" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -165,7 +167,7 @@
                             <div class="col-md-6 col-lg-4">
                                 <div class="contactForm">
                                     <p class="location">192007, г.Санкт-Петербург, ул. Тамбовская д.11А пом. 1Н</p>
-                                    <p class="number">+7 (812) 921-21-67</p>
+                                    <a class="number" href="tel: +78129212167">+7 (812) 746-95-00</a>
                                     <p class="contactFormTitle">НАПИШИТЕ НАМ</p>
         
                                     <form>

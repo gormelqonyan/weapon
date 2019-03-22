@@ -21,9 +21,7 @@
 }
 
 @media(max-width: 1200px){
-    .arrow{
-        display: block;
-    }
+    
     nav{
         display: none;
     }
@@ -38,79 +36,10 @@
         display: none;
     }
 
-    .animation{
-        padding: 0;
-    }
-
-
-    .aboutsSaleAnimationItem1 .aboutsSaleAnimationItemText,
-    .aboutsSaleAnimationItem2 .aboutsSaleAnimationItemText,
-    .aboutsSaleAnimationItem3 .aboutsSaleAnimationItemText,
-    .aboutsSaleAnimationItem4 .aboutsSaleAnimationItemText{
-        position: static;
-        right: 0;
-        bottom: 0;
-        margin-top: 0.5rem;
-        width: 100%;
-    }
-    .aboutsSaleAnimationItem4 .aboutsSaleAnimationItemText{
-        margin-top: 120px;
-    }
-
-    .aboutsSaleAnimationItem1 .aboutsSaleAnimationItemNumber{
-        position: absolute;
-        bottom: 110px;
-        left: 0px;
-    }
-
-    .aboutsSaleAnimationItem3 .aboutsSaleAnimationItemNumber{
-        top: 210px;
-    }
     
-    .aboutsSaleAnimationItem2Img{
-        padding-top: 200px;
-    }
 
-    .aboutsSaleAnimationItem2 .aboutsSaleAnimationItemNumber{
-        position: absolute;
-        top: 465px;
-    }
 
-    .aboutsaletitleX{
-        display: none;
-    }
-
-    .aboutsaletitlepatern{
-        top: 20px;
-        left: -140px;
-        width: 400px;
-        height: 140px;
-    }
-
-    .aboutSaleTitle{
-        position: absolute;
-        top: 75px;
-        right: 0;
-        width: 400px;
-        text-align: right;
-    }
-
-    .aboutSale .big-container{
-        padding: 0;
-    }
-
-    .aboutsSaleAnimationItem3{
-        margin-top: 0;
-    }
-
-    .aboutsSaleAnimationItemNumber,
-    .aboutsSaleAnimationItemText {
-        transition: 0s !important;
-    }
-
-    .aboutsSaleAnimationItemPaternImg{
-        display: none;
-    }
+   
     .advantages-content{
         width: 60%;
     }
@@ -211,6 +140,92 @@
     
 }
 
+@media(max-width: 1199px){
+    .arrow{
+        display: block;
+    }
+
+    .animation{
+        padding: 0;
+    }
+
+    .aboutSaleTitle{
+        position: absolute;
+        top: 75px;
+        right: 0;
+        width: 400px;
+        text-align: right;
+    }
+
+    .aboutsSaleAnimationItem1 .aboutsSaleAnimationItemText,
+    .aboutsSaleAnimationItem2 .aboutsSaleAnimationItemText,
+    .aboutsSaleAnimationItem3 .aboutsSaleAnimationItemText,
+    .aboutsSaleAnimationItem4 .aboutsSaleAnimationItemText{
+        position: static;
+        right: 0;
+        bottom: 0;
+        margin-top: 0.5rem;
+        width: 100%;
+        color: #E6E1CE;
+    }
+    .aboutsSaleAnimationItem4 .aboutsSaleAnimationItemText{
+        margin-top: 120px;
+    }
+
+    .aboutsSaleAnimationItem1 .aboutsSaleAnimationItemNumber{
+        position: absolute;
+        bottom: 110px;
+        left: 0px;
+    }
+
+    .aboutsSaleAnimationItem3 .aboutsSaleAnimationItemNumber{
+        top: 210px;
+    }
+    
+    .aboutsSaleAnimationItem2Img{
+        padding-top: 200px;
+    }
+
+    .aboutsSaleAnimationItem2 .aboutsSaleAnimationItemNumber{
+        position: absolute;
+        top: 465px;
+    }
+
+    .aboutsaletitleX{
+        display: none;
+    }
+
+    .aboutsaletitlepatern{
+        top: 20px;
+        left: -140px;
+        width: 400px;
+        height: 140px;
+    }
+
+    
+
+    .aboutSale .big-container{
+        padding: 0;
+    }
+
+    .aboutsSaleAnimationItem3{
+        margin-top: 0;
+    }
+
+    .aboutsSaleAnimationItemNumber,
+    .aboutsSaleAnimationItemText {
+        transition: 0s !important;
+    }
+
+    .aboutsSaleAnimationItemPaternImg{
+        display: none;
+    }
+
+    .button.cardBtn{
+        width: 454px;
+    }
+}
+
 
 @media(max-width: 992px){
     .sale .paralax10{
@@ -222,9 +237,6 @@
     }
     header{
         padding-top: 6px;
-    }
-    .redLine{
-        width: 500px;
     }
     .sale .paralax{
         width: 650px;
@@ -273,10 +285,11 @@
 
     .sale-weapon .contact{
         text-align: right;
+        color: #E6E1CE !important;
     }
 
     .sale-weapon .contact .phoneNumber{
-        color: #E6E1CE;
+        color: #E6E1CE !important;
     }
 
     .sale-title-patern{
@@ -613,6 +626,21 @@
         display: none;
     }
 
+    .sale .paralax5{
+        right: 40%;
+        top: 47%;
+    }
+
+    .sale .paralax10{
+        right: 26%;
+        top: 29%;
+    }
+
+    .aboutsSaleAnimationItem4 .aboutsSaleAnimationItemNumber{
+        top: 260px;
+        right: 218px;
+    }
+
 
 }
 
@@ -769,6 +797,11 @@
     .productitem:nth-child(9),
     .productitem:nth-child(10){
         display: none;
+    }
+
+    .button.cardBtn{
+        width: 315px;
+        margin: 2rem auto;
     }
 
     

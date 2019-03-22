@@ -10,6 +10,7 @@
 .aboutSale.animate .animateTitleText{
   width: 100%;
   transition: 3s;
+  color: #f8f8f8;
 }
 
 .sale.animate .animateTitleText{

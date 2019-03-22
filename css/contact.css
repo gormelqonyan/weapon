@@ -158,6 +158,7 @@
 	font-size: 20px;
 	line-height: normal;
 	letter-spacing: 5px;
+	color: #E6E1CE;
 }
 
 .contactFormTitle{
@@ -270,11 +271,9 @@
 }
 
 .sectionPatternX{
-    position: absolute;
-    top: 153px;
-    left: 900px;
-
-
+	position: absolute;
+	top: 153px;
+	left: 1150px;
 }
 /************************************
   ARTICLES STYLE
@@ -420,6 +419,7 @@
 	line-height: normal;
 	font-size: 20px;
 	letter-spacing: 5px;
+	margin-top: 35px;
 }
 
 
@@ -530,7 +530,7 @@ border-bottom: 1px solid #DF172D;
 }
 
 .productTitle{
-	font-family: ventimedium;
+	font-family: ventilight;
 	font-size: 36px;
 	line-height: normal;
 	letter-spacing: 5px;
