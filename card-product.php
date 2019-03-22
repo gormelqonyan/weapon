@@ -68,7 +68,7 @@
                 </div>
                 <section class="contact">
                     <div class="big-container">
-                        <h2 class="contactTitle">
+                        <h1 class="contactTitle">
                             <div class="contactTitleBox">Травматический автомат МР-80-13Т 45 Rubber</div>
                             
                             <div class="contactTitlePatternX">
@@ -159,7 +159,7 @@
                                 </svg>
                                         
                             </div>
-                        </h2>
+                        </h1>
 
                         <img src="img/pricePatternX.svg" alt="pricePatternX" class="pricePatternX">
 

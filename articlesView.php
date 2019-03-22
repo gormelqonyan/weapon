@@ -65,7 +65,7 @@
                 </div>
                 <section class="contact">
                     <div class="big-container">
-                        <h2 class="contactTitle">
+                        <h1 class="contactTitle">
                             <div>Название статьи. Может, очень длинное название...</div>
                             
                             <div class="contactTitlePatternX">
@@ -159,7 +159,7 @@
 
                             
                             
-                        </h2>
+                        </h1>
                         
                         <div class="articlesViewContent">
                             <div class="row">

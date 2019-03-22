@@ -67,7 +67,7 @@
                 </div>
                 <section class="contact">
                     <div class="big-container">
-                        <h2 class="contactTitle">
+                        <h1 class="contactTitle">
                             <div>Контакты</div>
                             
                             <div class="contactTitlePatternX">
@@ -161,7 +161,7 @@
 
                             
                             
-                        </h2>
+                        </h1>
         
                         <div class="row align-items-end py-4">
                             <div class="col-md-6 col-lg-4">

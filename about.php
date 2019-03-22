@@ -320,19 +320,20 @@ $(document).ready(function(){
 });
 $(window).resize(function(){
     sliderAbout();
+    location.reload();
 });
 
     function sliderAbout(){
-                    if($(window).width() > 1200){
-    var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      navigation: {
-        nextEl: '.arrowRight',
-        prevEl: '.arrowLeft',
-      },
-    });
-        }
+    if($(window).width() > 1200){
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            navigation: {
+                nextEl: '.arrowRight',
+                prevEl: '.arrowLeft',
+            },
+        });
+    }
 else if($(window).width() < 1199 && $(window).width() > 768){
     var swiper = new Swiper('.swiper-container', {
       slidesPerView: 2,
@@ -344,8 +345,6 @@ else if($(window).width() < 1199 && $(window).width() > 768){
     });
 }
 else{
-
-
    var swiper = new Swiper('.swiper-container', {
       slidesPerView: 1,
       spaceBetween: 30,

@@ -1319,7 +1319,7 @@
 				<div class="row align-items-start align-items-xl-center">
 					<div class="col-lg-3">	
 						<h2 class="howSaletitle">
-							<div class="animateTitleText"><span class="textAnimation">где продать ОРУЖИЕ?</span></div>
+							<div class="animateTitleText"><h2><span class="textAnimation">где продать ОРУЖИЕ?</span></h2></div>
 							<div class="howsalepatern">
 								<svg width="409" height="247" viewBox="0 0 409 247" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<g clip-path="url(#clip27)">
@@ -1484,7 +1484,7 @@
 					<div class="advantages-content">
 						<img src="img/weapon2.jpg" alt="weapon" class="advantages-weapon">
 						<h2 class="advantagesTitel text-center">
-							<div class="animateTitleText"><span class="nowrapText">Наши приемущества</span></div>
+							<div class="animateTitleText"><h2><span class="nowrapText">Наши приемущества</span></h2></div>
 							<div class="weaponTitlePatern">
 								<svg width="992" height="39" viewBox="0 0 992 39" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<g clip-path="url(#clip6)">
@@ -1732,7 +1732,7 @@
 									</defs>
 								</svg>
 							</div>
-							<div class="animateTitleText"><span class="nowrapText">У нас Вы можете</span> приобрести</div>
+							<div class="animateTitleText"><h2><span class="nowrapText">У нас Вы можете</span> приобрести</h2></div>
 						</div>
 						
 
@@ -2050,7 +2050,7 @@
 		<section class="rewiev">
 			<div class="big-container">
 				<h2 class="rewievTitle">
-					<div class="animateTitleText">Отзывы</div>
+					<div class="animateTitleText"><h2>Отзывы</h2></div>
 					<div class="rewievTitlePattern">
 						<svg width="478" height="190" viewBox="0 0 478 190" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<g clip-path="url(#clip13)">
@@ -2654,7 +2654,7 @@
 
 
 
-					<h4 class="seoContentTitle">SEO-оптимизированнный текст</h4>
+					<h2 class="seoContentTitle">SEO-оптимизированнный текст</h2>
 					<p class="seoContentBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</p>
 					<p class="seoContentBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</p>
 				</div>

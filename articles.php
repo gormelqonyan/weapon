@@ -66,7 +66,7 @@
                 </div>
                 <section class="contact">
                     <div class="big-container">
-                        <h2 class="contactTitle">
+                        <h1 class="contactTitle">
                             <div>Все об оружии</div>
                             
                             <div class="contactTitlePatternX">
@@ -160,7 +160,7 @@
 
                             
                             
-                        </h2>
+                        </h1>
                         
                         <div class="articleContent">
                             <div class="articleItem">
@@ -249,9 +249,9 @@
                                         </defs>
                                     </svg> 
                                 </div>
-                                <h4 class="articleItemTitle">
+                                <h2 class="articleItemTitle">
                                     Заголовок
-                                </h4>
+                                </h2>
                                 <p class="articleItemText">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. 
                                 </p>
@@ -348,9 +348,9 @@
                                             </defs>
                                         </svg> 
                                     </div>
-                                    <h4 class="articleItemTitle">
+                                    <h2 class="articleItemTitle">
                                         Заголовок
-                                    </h4>
+                                    </h2>
                                     <p class="articleItemText">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. 
                                     </p>
