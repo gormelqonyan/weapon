@@ -124,7 +124,7 @@
 	letter-spacing: 12px;
 	text-transform: uppercase;
 	line-height: normal;
-	font-family: ventilight; 
+	font-family: ventilight, ventilightIE; 
 	position: relative;
 }
 
@@ -896,7 +896,7 @@
 }
 
 .advantagesTitel{
-	font-family: ventilight;
+	font-family: ventilight, ventilightIE;
 	font-size: 40px;
 	line-height: normal;
 	letter-spacing: 12px;
@@ -954,7 +954,7 @@ PRODUCT STYLE
 
 .productTitle{
 	width: 700px;
-	font-family: ventilight;
+	font-family: ventilight, ventilightIE;
 	font-size: 40px;
 	line-height: normal;
 	text-align: right;
@@ -994,7 +994,7 @@ PRODUCT STYLE
 }
 
 .productItemTitle{
-	font-family: ventilight;
+	font-family: ventilight, ventilightIE;
 	font-size: 15px;
 	line-height: 19px;
 	letter-spacing: 3px;

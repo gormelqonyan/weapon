@@ -75,7 +75,7 @@
 
 
 .textBottomAbout{
-	font-family: ventilight;
+	font-family: ventilight, ventilightIE;
 	font-size: 36px;
 	line-height: normal;
 	letter-spacing: 5px;

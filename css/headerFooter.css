@@ -4,9 +4,15 @@
 }
 
 @font-face{
+	src: url(../fonts/VentiCF-Light.eot);
+	font-family: ventilightIE;
+}
+
+@font-face{
 	src: url(../fonts/VentiCF-Medium.ttf);
 	font-family: ventimedium;
 }
+
 
 @font-face{
 	src: url(../fonts/helvetic.ttf);

@@ -124,7 +124,7 @@
 
 
 .contactTitle{
-	font-family: ventilight;
+	font-family: ventilight, ventilightIE;
 	font-size: 36px;
 	line-height: normal;
 	letter-spacing: 5px;
@@ -530,7 +530,7 @@ border-bottom: 1px solid #DF172D;
 }
 
 .productTitle{
-	font-family: ventilight;
+	font-family: ventilight, ventilightIE;
 	font-size: 36px;
 	line-height: normal;
 	letter-spacing: 5px;
@@ -549,7 +549,7 @@ border-bottom: 1px solid #DF172D;
 }
 
 .productItemTitle{
-	font-family: ventilight;
+	font-family: ventilight, ventilightIE;
 	font-size: 15px;
 	line-height: 19px;
 	letter-spacing: 3px;
@@ -896,7 +896,7 @@ border-bottom: 1px solid #DF172D;
 
 
 .productItemTitle{
-	font-family: ventilight;
+	font-family: ventilight, ventilightIE;
 	font-size: 15px;
 	line-height: 19px;
 	letter-spacing: 3px;
